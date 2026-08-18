@@ -6,10 +6,10 @@ export default function Footer() {
     <footer className="mt-24 border-t border-[var(--color-border)] bg-[var(--color-paper-alt)]">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-16 text-center">
         <h2 className="font-serif text-2xl text-[var(--color-ink)]">
-          ¿Tienes preguntas sobre algún perfume?
+          ¿Tienes preguntas sobre algún producto?
         </h2>
         <p className="max-w-md text-sm text-[var(--color-muted)]">
-          Escríbenos por WhatsApp y te ayudamos a elegir la fragancia perfecta.
+          Escríbenos por WhatsApp y te ayudamos a elegir la opción perfecta.
         </p>
         <WhatsAppButton />
         <p className="mt-8 text-xs text-[var(--color-muted)]">

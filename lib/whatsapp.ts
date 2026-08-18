@@ -1,19 +1,34 @@
 import { WHATSAPP_NUMBER } from "./config";
-import type { CartItem, Perfume } from "./types";
+import type { CartItem } from "./types";
 import { formatPrice } from "./format";
 
-export function getWhatsAppLink(perfume?: Pick<Perfume, "nombre" | "marca">): string {
-  const message = perfume
-    ? `Hola, quiero información sobre ${perfume.marca} - ${perfume.nombre}`
-    : "Hola, quiero información sobre sus perfumes";
+export function getWhatsAppLink(producto?: { nombre: string; marca?: string }): string {
+  const message = producto
+    ? `Hola, quiero información sobre ${
+        producto.marca ? `${producto.marca} - ${producto.nombre}` : producto.nombre
+      }`
+    : "Hola, quiero información sobre sus productos";
 
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
+function lineaItem(item: CartItem, i: number): string {
+  const etiqueta = item.marca ? `${item.marca} - ${item.nombre}` : item.nombre;
+  return `${i + 1}. ${etiqueta} (${formatPrice(item.precio)})`;
+}
+
 export function getCartWhatsAppLink(items: CartItem[]): string {
-  const lineas = items.map(
-    (item, i) => `${i + 1}. ${item.marca} - ${item.nombre} (${formatPrice(item.precio)})`
-  );
+  const perfumes = items.filter((i) => i.tipo === "perfume");
+  const tenis = items.filter((i) => i.tipo === "tenis");
+
+  const secciones: string[] = [];
+  if (perfumes.length > 0) {
+    secciones.push("Perfumes:", ...perfumes.map(lineaItem), "");
+  }
+  if (tenis.length > 0) {
+    secciones.push("Tenis:", ...tenis.map(lineaItem), "");
+  }
+
   const total = items.reduce((sum, item) => sum + (item.precio ?? 0), 0);
   const pendientes = items.filter((item) => item.precio === null).length;
 
@@ -26,13 +41,9 @@ export function getCartWhatsAppLink(items: CartItem[]): string {
     totalLinea = `Total: ${formatPrice(total)}`;
   }
 
-  const message = [
-    "Hola, quiero pedir estos perfumes:",
-    "",
-    ...lineas,
-    "",
-    totalLinea,
-  ].join("\n");
+  const message = ["Hola, quiero pedir estos productos:", "", ...secciones, totalLinea].join(
+    "\n"
+  );
 
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }

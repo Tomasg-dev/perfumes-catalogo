@@ -55,10 +55,10 @@ export default function CartDrawer() {
         {items.length === 0 ? (
           <div className="flex flex-1 flex-col items-center justify-center gap-3 px-6 text-center">
             <p className="text-sm text-[var(--color-muted)]">
-              Aún no has agregado perfumes a tu pedido.
+              Aún no has agregado productos a tu pedido.
             </p>
             <Link
-              href="/catalogo"
+              href="/perfumes"
               onClick={closeCart}
               className="text-sm text-[var(--color-gold)] hover:underline"
             >
@@ -79,12 +79,15 @@ export default function CartDrawer() {
                       nombre={item.nombre}
                       marca={item.marca}
                       sizes="64px"
+                      unoptimized={item.tipo === "tenis"}
                     />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="truncate text-xs uppercase tracking-widest text-[var(--color-muted)]">
-                      {item.marca}
-                    </p>
+                    {item.marca && (
+                      <p className="truncate text-xs uppercase tracking-widest text-[var(--color-muted)]">
+                        {item.marca}
+                      </p>
+                    )}
                     <p className="truncate font-serif text-base text-[var(--color-ink)]">
                       {item.nombre}
                     </p>

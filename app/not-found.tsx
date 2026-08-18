@@ -13,7 +13,7 @@ export default function NotFound() {
         Puede que el producto ya no esté disponible o el enlace sea incorrecto.
       </p>
       <Link
-        href="/catalogo"
+        href="/perfumes"
         className="rounded-full border border-[var(--color-ink)] px-6 py-3 text-sm tracking-wide text-[var(--color-ink)] transition-colors hover:bg-[var(--color-ink)] hover:text-[var(--color-paper)]"
       >
         Ir al catálogo

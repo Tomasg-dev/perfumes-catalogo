@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import CartDrawer from "@/components/CartDrawer";
-import CartToast from "@/components/CartToast";
+import SiteChrome from "@/components/SiteChrome";
 import { CartProvider } from "@/lib/cart-context";
 import { SITE_NAME } from "@/lib/config";
 import "./globals.css";
@@ -49,11 +46,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col">
         <CartProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-          <CartDrawer />
-          <CartToast />
+          <SiteChrome>{children}</SiteChrome>
         </CartProvider>
       </body>
     </html>

@@ -6,9 +6,10 @@ import Image from "next/image";
 interface PerfumeImageProps {
   imagenUrl: string | null;
   nombre: string;
-  marca: string;
+  marca?: string;
   priority?: boolean;
   sizes?: string;
+  unoptimized?: boolean;
 }
 
 const DEFAULT_SIZES = "(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw";
@@ -19,6 +20,7 @@ export default function PerfumeImage({
   marca,
   priority = false,
   sizes = DEFAULT_SIZES,
+  unoptimized = false,
 }: PerfumeImageProps) {
   const [failed, setFailed] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
@@ -41,10 +43,11 @@ export default function PerfumeImage({
         <Image
           ref={imgRef}
           src={imagenUrl}
-          alt={`${marca} ${nombre}`}
+          alt={marca ? `${marca} ${nombre}` : nombre}
           fill
           sizes={sizes}
           preload={priority}
+          unoptimized={unoptimized}
           onError={() => setFailed(true)}
           className="object-cover"
         />

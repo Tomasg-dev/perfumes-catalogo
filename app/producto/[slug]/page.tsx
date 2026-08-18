@@ -8,6 +8,7 @@ import RelatedPerfumes from "@/components/RelatedPerfumes";
 import { getPerfumes, getPerfumeBySlug } from "@/lib/sheets";
 import { getRelatedPerfumes } from "@/lib/related";
 import { formatPrice, CATEGORIA_LABELS } from "@/lib/format";
+import { perfumeToCartItem } from "@/lib/cart-items";
 
 export async function generateStaticParams() {
   const perfumes = await getPerfumes();
@@ -55,7 +56,7 @@ export default async function ProductoPage({
     <>
       <div className="mx-auto max-w-6xl px-6 py-16">
         <Link
-          href="/catalogo"
+          href="/perfumes"
           className="text-sm text-[var(--color-muted)] hover:text-[var(--color-gold)]"
         >
           ← Volver al catálogo
@@ -99,8 +100,8 @@ export default async function ProductoPage({
             </div>
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-              <WhatsAppButton perfume={perfume} />
-              <AddToCartButton perfume={perfume} />
+              <WhatsAppButton producto={perfume} />
+              <AddToCartButton item={perfumeToCartItem(perfume)} />
             </div>
           </div>
         </div>

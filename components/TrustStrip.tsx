@@ -6,7 +6,7 @@ const ITEMS = [
     ),
   },
   {
-    text: "Alta fijación y larga duración",
+    text: "Calidad en cada producto",
     icon: (
       <>
         <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z" />

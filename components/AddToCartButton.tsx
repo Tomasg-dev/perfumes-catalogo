@@ -4,31 +4,20 @@ import { useCart } from "@/lib/cart-context";
 import type { CartItem } from "@/lib/types";
 
 interface AddToCartButtonProps {
-  perfume: CartItem;
+  item: CartItem;
   variant?: "primary" | "compact";
   className?: string;
 }
 
 export default function AddToCartButton({
-  perfume,
+  item,
   variant = "primary",
   className = "",
 }: AddToCartButtonProps) {
   const { isInCart, toggleItem } = useCart();
-  const enCarrito = isInCart(perfume.id);
+  const enCarrito = isInCart(item.id);
 
-  // Se guarda solo el subconjunto mínimo en el carrito (no el objeto
-  // Perfume completo que llega desde la tarjeta/página), para mantener
-  // liviano lo que se persiste en localStorage.
-  const handleToggle = () =>
-    toggleItem({
-      id: perfume.id,
-      slug: perfume.slug,
-      nombre: perfume.nombre,
-      marca: perfume.marca,
-      precio: perfume.precio,
-      imagenUrl: perfume.imagenUrl,
-    });
+  const handleToggle = () => toggleItem(item);
 
   const base = "inline-flex items-center justify-center gap-2 transition-colors duration-200";
 

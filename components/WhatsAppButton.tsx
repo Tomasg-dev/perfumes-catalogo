@@ -1,18 +1,17 @@
 import { getWhatsAppLink } from "@/lib/whatsapp";
-import type { Perfume } from "@/lib/types";
 
 interface WhatsAppButtonProps {
-  perfume?: Pick<Perfume, "nombre" | "marca">;
+  producto?: { nombre: string; marca?: string };
   variant?: "primary" | "compact";
   className?: string;
 }
 
 export default function WhatsAppButton({
-  perfume,
+  producto,
   variant = "primary",
   className = "",
 }: WhatsAppButtonProps) {
-  const href = getWhatsAppLink(perfume);
+  const href = getWhatsAppLink(producto);
 
   const base =
     "inline-flex items-center justify-center gap-2 transition-colors duration-200";

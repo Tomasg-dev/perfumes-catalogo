@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import PerfumeCard from "./PerfumeCard";
 import type { Perfume, Categoria } from "@/lib/types";
 import { CATEGORIA_LABELS } from "@/lib/format";
+import { GOLD_CHEVRON_STYLE, SELECT_OPTION_CLASSNAME } from "@/lib/select-style";
 
 type Orden = "destacados" | "precio-asc" | "precio-desc";
 
@@ -82,27 +83,15 @@ export default function CatalogExplorer({ perfumes }: { perfumes: Perfume[] }) {
             value={orden}
             onChange={(e) => setOrden(e.target.value as Orden)}
             className="min-w-0 appearance-none rounded-full border border-[var(--color-border)] bg-[var(--color-paper)] bg-[length:14px] bg-[right_1rem_center] bg-no-repeat pl-4 pr-9 py-1.5 text-sm text-[var(--color-ink)] outline-none focus:border-[var(--color-gold)]"
-            style={{
-              backgroundImage:
-                "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%23a9884f' stroke-width='1.5'%3E%3Cpath d='M5 7.5 10 12.5 15 7.5'/%3E%3C/svg%3E\")",
-            }}
+            style={GOLD_CHEVRON_STYLE}
           >
-            <option
-              value="destacados"
-              className="bg-[var(--color-paper)] text-[var(--color-ink)]"
-            >
+            <option value="destacados" className={SELECT_OPTION_CLASSNAME}>
               Destacados
             </option>
-            <option
-              value="precio-asc"
-              className="bg-[var(--color-paper)] text-[var(--color-ink)]"
-            >
+            <option value="precio-asc" className={SELECT_OPTION_CLASSNAME}>
               Precio: menor a mayor
             </option>
-            <option
-              value="precio-desc"
-              className="bg-[var(--color-paper)] text-[var(--color-ink)]"
-            >
+            <option value="precio-desc" className={SELECT_OPTION_CLASSNAME}>
               Precio: mayor a menor
             </option>
           </select>

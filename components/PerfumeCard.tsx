@@ -4,6 +4,7 @@ import WhatsAppButton from "./WhatsAppButton";
 import AddToCartButton from "./AddToCartButton";
 import { formatPrice, CATEGORIA_LABELS } from "@/lib/format";
 import type { Perfume } from "@/lib/types";
+import { perfumeToCartItem } from "@/lib/cart-items";
 
 export default function PerfumeCard({
   perfume,
@@ -40,8 +41,8 @@ export default function PerfumeCard({
           </p>
         </div>
         <div className="flex shrink-0 gap-2">
-          <AddToCartButton perfume={perfume} variant="compact" />
-          <WhatsAppButton perfume={perfume} variant="compact" />
+          <AddToCartButton item={perfumeToCartItem(perfume)} variant="compact" />
+          <WhatsAppButton producto={perfume} variant="compact" />
         </div>
       </div>
     </div>

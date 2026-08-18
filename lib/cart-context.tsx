@@ -10,7 +10,9 @@ import {
 import type { ReactNode } from "react";
 import type { CartItem } from "./types";
 
-const STORAGE_KEY = "perfumes_cart_v1";
+// v2: el CartItem ahora incluye "tipo" (perfume/tenis) y el id va prefijado;
+// se cambia la clave para no intentar leer carritos guardados con la forma vieja.
+const STORAGE_KEY = "carrito_v2";
 const TOAST_DURATION_MS = 2600;
 
 interface Toast {

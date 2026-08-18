@@ -1,4 +1,20 @@
+import type { ColorTenis } from "./colores-tenis";
+
 export type Categoria = "hombre" | "mujer" | "unisex";
+export type CategoriaTenis = "hombre" | "mujer";
+
+export interface Tenis {
+  id: string;
+  slug: string;
+  nombre: string;
+  categoria: CategoriaTenis;
+  color: ColorTenis | null;
+  precio: number | null;
+  imagenUrl: string | null;
+  destacado: boolean;
+}
+
+export type TenisAdmin = Tenis & { activo: boolean };
 
 export interface Perfume {
   id: string;
@@ -16,7 +32,14 @@ export interface Perfume {
   destacado: boolean;
 }
 
-export type CartItem = Pick<
-  Perfume,
-  "id" | "slug" | "nombre" | "marca" | "precio" | "imagenUrl"
->;
+export type ProductType = "perfume" | "tenis";
+
+export interface CartItem {
+  tipo: ProductType;
+  id: string;
+  slug: string;
+  nombre: string;
+  marca?: string;
+  precio: number | null;
+  imagenUrl: string | null;
+}
