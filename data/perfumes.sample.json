@@ -1,0 +1,5851 @@
+[
+  {
+    "id": "212-men-nyc-pasta",
+    "slug": "212-men-nyc-pasta",
+    "nombre": "212 Men NYC Pasta",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana verde",
+      "Menta",
+      "Notas ozónicas"
+    ],
+    "notasCorazon": [
+      "Pétalos de jazmín"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Almizcle"
+    ],
+    "descripcion": "Combina manzana verde, menta, notas ozónicas en la salida con pétalos de jazmín en el corazón, sobre una base cálida de maderas, almizcle.",
+    "imagenUrl": "/perfumes/212 MEN NYC PASTA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-vip-men",
+    "slug": "212-vip-men",
+    "nombre": "212 VIP Men",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Vodka",
+      "Menta",
+      "Jengibre"
+    ],
+    "notasCorazon": [
+      "Gamuza"
+    ],
+    "notasFondo": [
+      "Maderas"
+    ],
+    "descripcion": "Fresca y masculina, mezcla vodka, menta, jengibre con gamuza y un fondo envolvente de maderas.",
+    "imagenUrl": "/perfumes/212 VIP MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-vip-black",
+    "slug": "212-vip-black",
+    "nombre": "212 VIP Black",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Espresso",
+      "Azafrán"
+    ],
+    "notasCorazon": [
+      "Cuero"
+    ],
+    "notasFondo": [
+      "Tabaco",
+      "Roble"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde espresso, azafrán da paso a cuero, sostenida por tabaco, roble en el fondo.",
+    "imagenUrl": "/perfumes/212 VIP BLACK (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-men-sexy",
+    "slug": "212-men-sexy",
+    "nombre": "212 Men Sexy",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Menta",
+      "Cardamomo"
+    ],
+    "notasCorazon": [
+      "Cuero",
+      "Ámbar"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Pachulí"
+    ],
+    "descripcion": "Salida de menta, cardamomo, corazón de cuero, ámbar y una base de almizcle, pachulí que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/212 MEN SEXY (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-men-nyc-metalica",
+    "slug": "212-men-nyc-metalica",
+    "nombre": "212 Men NYC Metálica",
+    "marca": "Carolina Herrera",
+    "precio": 88000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Pomelo",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Violeta"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con pomelo, mandarina, evoluciona hacia violeta y cierra con un fondo de sándalo, almizcle.",
+    "imagenUrl": "/perfumes/212 MEN NYC METALICA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-men-aqua",
+    "slug": "212-men-aqua",
+    "nombre": "212 Men Aqua",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Cítricos acuáticos",
+      "Notas marinas"
+    ],
+    "notasCorazon": [
+      "Menta"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Almizcle"
+    ],
+    "descripcion": "Combina cítricos acuáticos, notas marinas en la salida con menta en el corazón, sobre una base cálida de maderas, almizcle.",
+    "imagenUrl": "/perfumes/212 MEN AQUA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "ch-men",
+    "slug": "ch-men",
+    "nombre": "CH Men",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Bergamota",
+      "Cardamomo"
+    ],
+    "notasCorazon": [
+      "Cuero",
+      "Tabaco"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Haba tonka"
+    ],
+    "descripcion": "Fresca y masculina, mezcla bergamota, cardamomo con cuero, tabaco y un fondo envolvente de maderas, haba tonka.",
+    "imagenUrl": "/perfumes/CH MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bad-boy",
+    "slug": "bad-boy",
+    "nombre": "Bad Boy",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Pimienta negra y blanca",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Cedro",
+      "Salvia"
+    ],
+    "notasFondo": [
+      "Haba tonka",
+      "Cacao",
+      "Ámbar madera"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde pimienta negra y blanca, bergamota da paso a cedro, salvia, sostenida por haba tonka, cacao, ámbar madera en el fondo.",
+    "imagenUrl": "/perfumes/BAD BOY (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-men-heroes-forever-young",
+    "slug": "212-men-heroes-forever-young",
+    "nombre": "212 Men Heroes Forever Young",
+    "marca": "Carolina Herrera",
+    "precio": 88000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Bergamota",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Lavanda"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Almizcle"
+    ],
+    "descripcion": "Salida de bergamota, manzana, corazón de lavanda y una base de maderas, almizcle que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/212 MEN HEROES FOREVER YOUNG (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-dama-heroes-forever-young",
+    "slug": "212-dama-heroes-forever-young",
+    "nombre": "212 Dama Heroes Forever Young",
+    "marca": "Carolina Herrera",
+    "precio": 88000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Frambuesa",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Flor de azahar",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Cedro",
+      "Sándalo"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con frambuesa, mandarina, evoluciona hacia flor de azahar, jazmín y cierra con un fondo de cedro, sándalo.",
+    "imagenUrl": "/perfumes/212 DAMA HEROES FOREVER YOUNG (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "ch-dama",
+    "slug": "ch-dama",
+    "nombre": "CH Dama",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Lichi",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Madreselva"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Combina lichi, mandarina en la salida con jazmín, madreselva en el corazón, sobre una base cálida de sándalo, almizcle, vainilla.",
+    "imagenUrl": "/perfumes/CH DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-vip-rose",
+    "slug": "212-vip-rose",
+    "nombre": "212 VIP Rose",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Rosé espumoso"
+    ],
+    "notasCorazon": [
+      "Flor de durazno"
+    ],
+    "notasFondo": [
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y femenina, mezcla rosé espumoso con flor de durazno y un fondo envolvente de almizcle.",
+    "imagenUrl": "/perfumes/212 VIP ROSE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "212-sexy-dama",
+    "slug": "212-sexy-dama",
+    "nombre": "212 Sexy Dama",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Notas frescas"
+    ],
+    "notasCorazon": [
+      "Flor de azahar",
+      "Gardenia"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle",
+      "Caramelo"
+    ],
+    "descripcion": "Una composición femenina y floral donde notas frescas da paso a flor de azahar, gardenia, sostenida por sándalo, almizcle, caramelo en el fondo.",
+    "imagenUrl": "/perfumes/212 SEXY DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "good-girl-tradicional",
+    "slug": "good-girl-tradicional",
+    "nombre": "Good Girl Tradicional",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Almendra",
+      "Café"
+    ],
+    "notasCorazon": [
+      "Jazmín sambac",
+      "Tuberosa"
+    ],
+    "notasFondo": [
+      "Cacao",
+      "Haba tonka",
+      "Vainilla"
+    ],
+    "descripcion": "Salida de almendra, café, corazón de jazmín sambac, tuberosa y una base de cacao, haba tonka, vainilla que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/GOOD GIRL TRADICIONAL (100ML).png",
+    "destacado": true
+  },
+  {
+    "id": "good-girl-very",
+    "slug": "good-girl-very",
+    "nombre": "Good Girl Very",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Café",
+      "Jazmín sambac"
+    ],
+    "notasCorazon": [
+      "Higo"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Vainilla"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con café, jazmín sambac, evoluciona hacia higo y cierra con un fondo de maderas, vainilla.",
+    "imagenUrl": "/perfumes/GOOD GIRL VERY (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "good-girl-blush",
+    "slug": "good-girl-blush",
+    "nombre": "Good Girl Blush",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Frambuesa",
+      "Flor de azahar"
+    ],
+    "notasCorazon": [
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Vainilla",
+      "Praliné"
+    ],
+    "descripcion": "Combina frambuesa, flor de azahar en la salida con jazmín en el corazón, sobre una base cálida de maderas, vainilla, praliné.",
+    "imagenUrl": "/perfumes/GOOD GIRL BLUSH (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "good-girl-supreme",
+    "slug": "good-girl-supreme",
+    "nombre": "Good Girl Supreme",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Almendra",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Jazmín sambac",
+      "Tuberosa"
+    ],
+    "notasFondo": [
+      "Cacao",
+      "Vainilla",
+      "Haba tonka"
+    ],
+    "descripcion": "Fresca y femenina, mezcla almendra, bergamota con jazmín sambac, tuberosa y un fondo envolvente de cacao, vainilla, haba tonka.",
+    "imagenUrl": "/perfumes/GOOD GIRL SUPREME (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "good-girl-legere",
+    "slug": "good-girl-legere",
+    "nombre": "Good Girl Legere",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Cítricos"
+    ],
+    "notasCorazon": [
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Vainilla ligera",
+      "Almizcle"
+    ],
+    "descripcion": "Una composición femenina y floral donde cítricos da paso a jazmín, sostenida por vainilla ligera, almizcle en el fondo.",
+    "imagenUrl": "/perfumes/GOOD GIRL LEGERE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "good-girl-blush-elixir",
+    "slug": "good-girl-blush-elixir",
+    "nombre": "Good Girl Blush Elixir",
+    "marca": "Carolina Herrera",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Bayas rojas",
+      "Flor de azahar"
+    ],
+    "notasCorazon": [
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Vainilla"
+    ],
+    "descripcion": "Salida de bayas rojas, flor de azahar, corazón de jazmín y una base de ámbar, vainilla que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/GOOD GIRL BLUSH ELIXIR (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "la-bomba",
+    "slug": "la-bomba",
+    "nombre": "La Bomba",
+    "marca": "Carolina Herrera",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pitahaya"
+    ],
+    "notasCorazon": [
+      "Frangipani",
+      "Peonía roja"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Pachulí"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con pitahaya, evoluciona hacia frangipani, peonía roja y cierra con un fondo de vainilla, pachulí.",
+    "imagenUrl": "/perfumes/LA BOMBA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "vida-es-bella",
+    "slug": "vida-es-bella",
+    "nombre": "Vida es Bella",
+    "marca": "Lancôme",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Grosella negra",
+      "Pera"
+    ],
+    "notasCorazon": [
+      "Iris",
+      "Flor de azahar"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Haba tonka",
+      "Vainilla",
+      "Praliné"
+    ],
+    "descripcion": "Combina grosella negra, pera en la salida con iris, flor de azahar en el corazón, sobre una base cálida de pachulí, haba tonka, vainilla, praliné.",
+    "imagenUrl": "/perfumes/VIDA ES BELLA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "paris-hilton-dama",
+    "slug": "paris-hilton-dama",
+    "nombre": "Paris Hilton Dama",
+    "marca": "Paris Hilton",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Manzana",
+      "Kiwi"
+    ],
+    "notasCorazon": [
+      "Tuberosa",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Ámbar"
+    ],
+    "descripcion": "Fresca y femenina, mezcla manzana, kiwi con tuberosa, jazmín y un fondo envolvente de vainilla, almizcle, ámbar.",
+    "imagenUrl": "/perfumes/PARIS HILTON DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "paris-hilton-men",
+    "slug": "paris-hilton-men",
+    "nombre": "Paris Hilton Men",
+    "marca": "Paris Hilton",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana verde",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Cardamomo"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde manzana verde, bergamota da paso a cardamomo, sostenida por sándalo, almizcle en el fondo.",
+    "imagenUrl": "/perfumes/PARIS HILTON MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "paris-hilton-heiress",
+    "slug": "paris-hilton-heiress",
+    "nombre": "Paris Hilton Heiress",
+    "marca": "Paris Hilton",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Champaña",
+      "Maracuyá",
+      "Durazno"
+    ],
+    "notasCorazon": [
+      "Granadina",
+      "Flor de tiaré",
+      "Ylang ylang"
+    ],
+    "notasFondo": [
+      "Haba tonka",
+      "Hoja de violeta",
+      "Maderas blancas"
+    ],
+    "descripcion": "Salida de champaña, maracuyá, durazno, corazón de granadina, flor de tiaré, ylang ylang y una base de haba tonka, hoja de violeta, maderas blancas que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/PARIS HILTON HEIRES (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "one-million-tradicional",
+    "slug": "one-million-tradicional",
+    "nombre": "One Million Tradicional",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Naranja sanguina",
+      "Toronja",
+      "Menta"
+    ],
+    "notasCorazon": [
+      "Canela",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Cuero",
+      "Ámbar",
+      "Pachulí"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con naranja sanguina, toronja, menta, evoluciona hacia canela, rosa y cierra con un fondo de cuero, ámbar, pachulí.",
+    "imagenUrl": "/perfumes/ONE MILLION TRADICIONAL (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "one-million-lucky",
+    "slug": "one-million-lucky",
+    "nombre": "One Million Lucky",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Neroli",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Avellana",
+      "Praliné"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Haba tonka"
+    ],
+    "descripcion": "Combina neroli, mandarina en la salida con avellana, praliné en el corazón, sobre una base cálida de maderas, haba tonka.",
+    "imagenUrl": "/perfumes/ONE MILLION LUCKY (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "one-million-elixir",
+    "slug": "one-million-elixir",
+    "nombre": "One Million Elixir",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Canela",
+      "Especias"
+    ],
+    "notasCorazon": [
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Haba tonka",
+      "Maderas"
+    ],
+    "descripcion": "Fresca y masculina, mezcla canela, especias con rosa y un fondo envolvente de ámbar, haba tonka, maderas.",
+    "imagenUrl": "/perfumes/ONE MILLION ELIXIR (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "one-million-gold",
+    "slug": "one-million-gold",
+    "nombre": "One Million Gold",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Miel",
+      "Especias"
+    ],
+    "notasCorazon": [
+      "Azafrán"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Ámbar",
+      "Vainilla"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde miel, especias da paso a azafrán, sostenida por maderas, ámbar, vainilla en el fondo.",
+    "imagenUrl": "/perfumes/ONE MILLION GOLD (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "one-million-parfum",
+    "slug": "one-million-parfum",
+    "nombre": "One Million Parfum",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Canela",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Cuero"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Pachulí"
+    ],
+    "descripcion": "Salida de canela, toronja, corazón de rosa, cuero y una base de ámbar, pachulí que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ONE MILLION PARFUM (100ML)_.png",
+    "destacado": false
+  },
+  {
+    "id": "black-xs-tradicional",
+    "slug": "black-xs-tradicional",
+    "nombre": "Black XS Tradicional",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Menta",
+      "Cardamomo"
+    ],
+    "notasCorazon": [
+      "Grosella negra",
+      "Cedro"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Haba tonka"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con menta, cardamomo, evoluciona hacia grosella negra, cedro y cierra con un fondo de vainilla, almizcle, haba tonka.",
+    "imagenUrl": "/perfumes/BLACK XS TRADICIONAL (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "olympea-dama",
+    "slug": "olympea-dama",
+    "nombre": "Olympea Dama",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pera verde",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Vainilla salada",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Ámbar gris",
+      "Cashmere wood"
+    ],
+    "descripcion": "Combina pera verde, mandarina en la salida con vainilla salada, jazmín en el corazón, sobre una base cálida de ámbar gris, cashmere wood.",
+    "imagenUrl": "/perfumes/OLYMPEA DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "can-can-dama",
+    "slug": "can-can-dama",
+    "nombre": "Can Can Dama",
+    "marca": "Paris Hilton",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Mandarina",
+      "Pimienta rosa"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Tuberosa"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Ámbar",
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y femenina, mezcla mandarina, pimienta rosa con jazmín, tuberosa y un fondo envolvente de sándalo, ámbar, almizcle.",
+    "imagenUrl": "/perfumes/CAN CAN DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "issey-miyake-men",
+    "slug": "issey-miyake-men",
+    "nombre": "Issey Miyake Men",
+    "marca": "Issey Miyake",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Yuzu",
+      "Nenúfar de agua"
+    ],
+    "notasCorazon": [
+      "Nuez moscada"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Tabaco",
+      "Ámbar"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde yuzu, nenúfar de agua da paso a nuez moscada, sostenida por maderas, tabaco, ámbar en el fondo.",
+    "imagenUrl": "/perfumes/ISSEY MIYAKE MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "issey-miyake-dama",
+    "slug": "issey-miyake-dama",
+    "nombre": "Issey Miyake Dama",
+    "marca": "Issey Miyake",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Loto",
+      "Ciclamen"
+    ],
+    "notasCorazon": [
+      "Lirio",
+      "Fresia"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Salida de loto, ciclamen, corazón de lirio, fresia y una base de sándalo, almizcle, vainilla que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ISSEY MIYAKE DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "jadore-dama",
+    "slug": "jadore-dama",
+    "nombre": "J'Adore Dama",
+    "marca": "Dior",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pera",
+      "Mango"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Almizcle"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con pera, mango, evoluciona hacia jazmín, rosa y cierra con un fondo de almizcle.",
+    "imagenUrl": "/perfumes/J’ADORE DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "sorbeto-rosso",
+    "slug": "sorbeto-rosso",
+    "nombre": "Sorbeto Rosso",
+    "marca": "Escada",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pera",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Sandía",
+      "Fresa",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Praliné",
+      "Almizcle",
+      "Ámbar"
+    ],
+    "descripcion": "Combina pera, mandarina en la salida con sandía, fresa, rosa en el corazón, sobre una base cálida de praliné, almizcle, ámbar.",
+    "imagenUrl": "/perfumes/SORBETO ROSSO (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "black-xs-lexces",
+    "slug": "black-xs-lexces",
+    "nombre": "Black XS L'Excès",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Coñac",
+      "Naranja sanguina"
+    ],
+    "notasCorazon": [
+      "Canela",
+      "Cuero"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y masculina, mezcla coñac, naranja sanguina con canela, cuero y un fondo envolvente de pachulí, almizcle.",
+    "imagenUrl": "/perfumes/BLACK XS LEXCES (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "pure-xs-men",
+    "slug": "pure-xs-men",
+    "nombre": "Pure XS Men",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Menta",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Canela",
+      "Incienso"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Pachulí"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde menta, toronja da paso a canela, incienso, sostenida por vainilla, pachulí en el fondo.",
+    "imagenUrl": "/perfumes/PURE XS MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "fame-dama-tradicional",
+    "slug": "fame-dama-tradicional",
+    "nombre": "Fame Dama Tradicional",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Fresia",
+      "Tuberosa"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Flor de vainilla"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Salida de fresia, tuberosa, corazón de jazmín, flor de vainilla y una base de almizcle, sándalo que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/FAME DAMA TRADICIONAL (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "fame-blooming-pink",
+    "slug": "fame-blooming-pink",
+    "nombre": "Fame Blooming Pink",
+    "marca": "Paco Rabanne",
+    "precio": 88000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pimienta rosa",
+      "Bayas rojas"
+    ],
+    "notasCorazon": [
+      "Peonía"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con pimienta rosa, bayas rojas, evoluciona hacia peonía y cierra con un fondo de almizcle, vainilla.",
+    "imagenUrl": "/perfumes/FAME BLOOMING PINK (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "fame-couture",
+    "slug": "fame-couture",
+    "nombre": "Fame Couture",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Jazmín",
+      "Tuberosa"
+    ],
+    "notasCorazon": [
+      "Flores blancas"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle"
+    ],
+    "descripcion": "Combina jazmín, tuberosa en la salida con flores blancas en el corazón, sobre una base cálida de sándalo, almizcle.",
+    "imagenUrl": "/perfumes/FAME COUTURE.png",
+    "destacado": false
+  },
+  {
+    "id": "fantasy-dama",
+    "slug": "fantasy-dama",
+    "nombre": "Fantasy Dama",
+    "marca": "Britney Spears",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Kiwi",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Orquídea",
+      "Chocolate blanco"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Cupcake"
+    ],
+    "descripcion": "Fresca y femenina, mezcla kiwi, manzana con orquídea, chocolate blanco y un fondo envolvente de almizcle, cupcake.",
+    "imagenUrl": "/perfumes/FANTASY  DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "acqua-di-gio-men",
+    "slug": "acqua-di-gio-men",
+    "nombre": "Acqua di Gio Men",
+    "marca": "Giorgio Armani",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Notas marinas",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Romero"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Pachulí",
+      "Cedro"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde notas marinas, bergamota da paso a jazmín, romero, sostenida por almizcle, pachulí, cedro en el fondo.",
+    "imagenUrl": "/perfumes/ACQUA DI GIO MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "acqua-di-gio-profondo-men",
+    "slug": "acqua-di-gio-profondo-men",
+    "nombre": "Acqua di Gio Profondo Men",
+    "marca": "Giorgio Armani",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Notas marinas",
+      "Romero"
+    ],
+    "notasCorazon": [
+      "Notas minerales"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Incienso"
+    ],
+    "descripcion": "Salida de notas marinas, romero, corazón de notas minerales y una base de pachulí, incienso que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ACQUA DI GIO PROFONDO MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "the-one-men",
+    "slug": "the-one-men",
+    "nombre": "The One Men",
+    "marca": "Giorgio Armani",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Cardamomo",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Hoja de tabaco"
+    ],
+    "notasFondo": [
+      "Cuero",
+      "Maderas"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con cardamomo, toronja, evoluciona hacia hoja de tabaco y cierra con un fondo de cuero, maderas.",
+    "imagenUrl": "/perfumes/THE ONE MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "phantom-men-tradicional",
+    "slug": "phantom-men-tradicional",
+    "nombre": "Phantom Men Tradicional",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Lavanda",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Vetiver ahumado"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Caramelo"
+    ],
+    "descripcion": "Combina lavanda, manzana en la salida con vetiver ahumado en el corazón, sobre una base cálida de vainilla, caramelo.",
+    "imagenUrl": "/perfumes/PHANTOM MEN TRADICIONAL (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "phantom-men-parfum",
+    "slug": "phantom-men-parfum",
+    "nombre": "Phantom Men Parfum",
+    "marca": "Paco Rabanne",
+    "precio": 88000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Lavanda",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Vetiver ahumado"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Ámbar"
+    ],
+    "descripcion": "Fresca y masculina, mezcla lavanda, manzana con vetiver ahumado y un fondo envolvente de vainilla, ámbar.",
+    "imagenUrl": "/perfumes/PHANTOM MEN PARFUM (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "phantom-men-elixir",
+    "slug": "phantom-men-elixir",
+    "nombre": "Phantom Men Elixir",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Especias",
+      "Lavanda"
+    ],
+    "notasCorazon": [
+      "Vetiver"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Haba tonka"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde especias, lavanda da paso a vetiver, sostenida por ámbar, haba tonka en el fondo.",
+    "imagenUrl": "/perfumes/PHANTOM MEN ELIXIR (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "invictus-men-tradicional",
+    "slug": "invictus-men-tradicional",
+    "nombre": "Invictus Men Tradicional",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Notas marinas",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Laurel"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Ámbar gris"
+    ],
+    "descripcion": "Salida de notas marinas, toronja, corazón de laurel y una base de maderas, ámbar gris que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/INVICTUS MEN_TRADICIONAL_(100ML).png",
+    "destacado": true
+  },
+  {
+    "id": "invictus-men-parfum",
+    "slug": "invictus-men-parfum",
+    "nombre": "Invictus Men Parfum",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Especias",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Laurel"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Ámbar gris"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con especias, toronja, evoluciona hacia laurel y cierra con un fondo de maderas, ámbar gris.",
+    "imagenUrl": "/perfumes/INVICTUS MEN_PARFUM MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "invictus-men-legend",
+    "slug": "invictus-men-legend",
+    "nombre": "Invictus Men Legend",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Especias ahumadas"
+    ],
+    "notasCorazon": [
+      "Guayaco"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Ámbar"
+    ],
+    "descripcion": "Combina especias ahumadas en la salida con guayaco en el corazón, sobre una base cálida de maderas, ámbar.",
+    "imagenUrl": "/perfumes/INVICTUS MEN_LEGEND MEN_(1OOML).png",
+    "destacado": false
+  },
+  {
+    "id": "invictus-men-victory-elixir",
+    "slug": "invictus-men-victory-elixir",
+    "nombre": "Invictus Men Victory Elixir",
+    "marca": "Paco Rabanne",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Especias",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Laurel"
+    ],
+    "notasFondo": [
+      "Ámbar intenso",
+      "Maderas"
+    ],
+    "descripcion": "Fresca y masculina, mezcla especias, toronja con laurel y un fondo envolvente de ámbar intenso, maderas.",
+    "imagenUrl": "/perfumes/INVICTUS MEN_VICTORY ELIXIR_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "stallion-53",
+    "slug": "stallion-53",
+    "nombre": "Stallion 53",
+    "marca": "Emper",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Cardamomo",
+      "Violeta"
+    ],
+    "notasCorazon": [
+      "Ámbar",
+      "Iris"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Cuero",
+      "Cedro de Virginia"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde cardamomo, violeta da paso a ámbar, iris, sostenida por sándalo, cuero, cedro de virginia en el fondo.",
+    "imagenUrl": "/perfumes/STALLION 53_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "santal-33",
+    "slug": "santal-33",
+    "nombre": "Santal 33",
+    "marca": "Le Labo",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Cardamomo",
+      "Iris"
+    ],
+    "notasCorazon": [
+      "Violeta"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Cuero",
+      "Cedro",
+      "Ámbar gris"
+    ],
+    "descripcion": "Salida de cardamomo, iris, corazón de violeta y una base de sándalo, cuero, cedro, ámbar gris que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/SANTAL 33_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bvlgari-omnia-cristalline",
+    "slug": "bvlgari-omnia-cristalline",
+    "nombre": "Bvlgari Omnia Cristalline",
+    "marca": "Bvlgari",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Loto",
+      "Bambú"
+    ],
+    "notasCorazon": [
+      "Pera nashi"
+    ],
+    "notasFondo": [
+      "Ámbar blanco",
+      "Almizcle"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con loto, bambú, evoluciona hacia pera nashi y cierra con un fondo de ámbar blanco, almizcle.",
+    "imagenUrl": "/perfumes/BVLGARI OMNIA_CRISTALL (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bvlgari-omnia-coral",
+    "slug": "bvlgari-omnia-coral",
+    "nombre": "Bvlgari Omnia Coral",
+    "marca": "Bvlgari",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Guayaba",
+      "Bayas rojas"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Ylang ylang"
+    ],
+    "notasFondo": [
+      "Almizcle"
+    ],
+    "descripcion": "Combina guayaba, bayas rojas en la salida con jazmín, ylang ylang en el corazón, sobre una base cálida de almizcle.",
+    "imagenUrl": "/perfumes/BVLGARI ONMIA_CORAL (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bvlgari-omnia-amethyste",
+    "slug": "bvlgari-omnia-amethyste",
+    "nombre": "Bvlgari Omnia Amethyste",
+    "marca": "Bvlgari",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Frambuesa",
+      "Uva"
+    ],
+    "notasCorazon": [
+      "Glicina",
+      "Iris"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y femenina, mezcla frambuesa, uva con glicina, iris y un fondo envolvente de ámbar, almizcle.",
+    "imagenUrl": "/perfumes/BVLGARI OMNIA_AMETHYS (1OOML).png",
+    "destacado": false
+  },
+  {
+    "id": "le-male-le-parfum",
+    "slug": "le-male-le-parfum",
+    "nombre": "Le Male Le Parfum",
+    "marca": "Jean Paul Gaultier",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Lavanda",
+      "Vainilla"
+    ],
+    "notasCorazon": [
+      "Especias"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Maderas"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde lavanda, vainilla da paso a especias, sostenida por ámbar, maderas en el fondo.",
+    "imagenUrl": "/perfumes/LE MALE LE_PARFUM (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "le-male-elixir",
+    "slug": "le-male-elixir",
+    "nombre": "Le Male Elixir",
+    "marca": "Jean Paul Gaultier",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Lavanda",
+      "Especias"
+    ],
+    "notasCorazon": [
+      "Vainilla"
+    ],
+    "notasFondo": [
+      "Ámbar intenso",
+      "Maderas"
+    ],
+    "descripcion": "Salida de lavanda, especias, corazón de vainilla y una base de ámbar intenso, maderas que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/LE MALE ELIXIR_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "paradise-garden",
+    "slug": "paradise-garden",
+    "nombre": "Paradise Garden",
+    "marca": "Jean Paul Gaultier",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Notas verdes",
+      "Jengibre"
+    ],
+    "notasCorazon": [
+      "Coco",
+      "Higo"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Haba tonka"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con notas verdes, jengibre, evoluciona hacia coco, higo y cierra con un fondo de sándalo, haba tonka.",
+    "imagenUrl": "/perfumes/PARADISE_GARDEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "jpg-divine-lata-dama",
+    "slug": "jpg-divine-lata-dama",
+    "nombre": "JPG Divine Lata Dama",
+    "marca": "Jean Paul Gaultier",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Vainilla",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Iris",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle"
+    ],
+    "descripcion": "Combina vainilla, bergamota en la salida con iris, jazmín en el corazón, sobre una base cálida de ámbar, almizcle.",
+    "imagenUrl": "/perfumes/JPG DIVINE LATA_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "jpg-divine-caja-dama",
+    "slug": "jpg-divine-caja-dama",
+    "nombre": "JPG Divine Caja Dama",
+    "marca": "Jean Paul Gaultier",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Vainilla",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Iris",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y femenina, mezcla vainilla, bergamota con iris, jazmín y un fondo envolvente de ámbar, almizcle.",
+    "imagenUrl": "/perfumes/JPG DIVINE CAJA_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "jpg-le-beau-le-parfum-caja-men",
+    "slug": "jpg-le-beau-le-parfum-caja-men",
+    "nombre": "JPG Le Beau Le Parfum Caja Men",
+    "marca": "Jean Paul Gaultier",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Toronja",
+      "Cardamomo"
+    ],
+    "notasCorazon": [
+      "Higo"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Haba tonka"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde toronja, cardamomo da paso a higo, sostenida por maderas, haba tonka en el fondo.",
+    "imagenUrl": "/perfumes/JPG LE BEAU LE_PARFUM CAJA_MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "scandal-men",
+    "slug": "scandal-men",
+    "nombre": "Scandal Men",
+    "marca": "Jean Paul Gaultier",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Miel efervescente",
+      "Naranja sanguina"
+    ],
+    "notasCorazon": [
+      "Lavanda"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Haba tonka"
+    ],
+    "descripcion": "Salida de miel efervescente, naranja sanguina, corazón de lavanda y una base de pachulí, haba tonka que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/SCANDAL MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "scandal-dama-caja",
+    "slug": "scandal-dama-caja",
+    "nombre": "Scandal Dama Caja",
+    "marca": "Jean Paul Gaultier",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Miel",
+      "Naranja sanguina",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Gardenia"
+    ],
+    "notasFondo": [
+      "Pachulí"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con miel, naranja sanguina, mandarina, evoluciona hacia gardenia y cierra con un fondo de pachulí.",
+    "imagenUrl": "/perfumes/SCANDAL DAMA CAJA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "nautica-voyage-men",
+    "slug": "nautica-voyage-men",
+    "nombre": "Nautica Voyage Men",
+    "marca": "Nautica",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Notas marinas"
+    ],
+    "notasCorazon": [
+      "Brisa marina"
+    ],
+    "notasFondo": [
+      "Cedro",
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Combina manzana, notas marinas en la salida con brisa marina en el corazón, sobre una base cálida de cedro, almizcle, sándalo.",
+    "imagenUrl": "/perfumes/NÁUTICA_VOYAGE MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "360-dama",
+    "slug": "360-dama",
+    "nombre": "360 Dama",
+    "marca": "Perry Ellis",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Lirio blanco",
+      "Notas verdes"
+    ],
+    "notasCorazon": [
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y femenina, mezcla lirio blanco, notas verdes con jazmín y un fondo envolvente de sándalo, almizcle.",
+    "imagenUrl": "/perfumes/360 DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "360-coral-dama",
+    "slug": "360-coral-dama",
+    "nombre": "360 Coral Dama",
+    "marca": "Perry Ellis",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Frutas",
+      "Flores blancas"
+    ],
+    "notasCorazon": [
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle dulce"
+    ],
+    "descripcion": "Una composición femenina y floral donde frutas, flores blancas da paso a jazmín, sostenida por almizcle dulce en el fondo.",
+    "imagenUrl": "/perfumes/360 CORAL DAMA_(100 ML).png",
+    "destacado": false
+  },
+  {
+    "id": "360-men-gris",
+    "slug": "360-men-gris",
+    "nombre": "360 Men Gris",
+    "marca": "Perry Ellis",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Notas acuáticas",
+      "Cítricos"
+    ],
+    "notasCorazon": [
+      "Especias"
+    ],
+    "notasFondo": [
+      "Maderas"
+    ],
+    "descripcion": "Salida de notas acuáticas, cítricos, corazón de especias y una base de maderas que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/360 MEN GRIS_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "360-men-red",
+    "slug": "360-men-red",
+    "nombre": "360 Men Red",
+    "marca": "Perry Ellis",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Frutos rojos",
+      "Especias"
+    ],
+    "notasCorazon": [
+      "Especias"
+    ],
+    "notasFondo": [
+      "Maderas"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con frutos rojos, especias, evoluciona hacia especias y cierra con un fondo de maderas.",
+    "imagenUrl": "/perfumes/360 MEN RED_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "dylan-blue-men",
+    "slug": "dylan-blue-men",
+    "nombre": "Dylan Blue Men",
+    "marca": "Versace",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Higo",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Papiro",
+      "Pimienta negra"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ambroxan",
+      "Azafrán"
+    ],
+    "descripcion": "Combina higo, toronja en la salida con papiro, pimienta negra en el corazón, sobre una base cálida de almizcle, ambroxan, azafrán.",
+    "imagenUrl": "/perfumes/DYLAN BLUE MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "eau-fraiche-men",
+    "slug": "eau-fraiche-men",
+    "nombre": "Eau Fraiche Men",
+    "marca": "Versace",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Limón",
+      "Bergamota",
+      "Palo de rosa"
+    ],
+    "notasCorazon": [
+      "Cedro",
+      "Estragón",
+      "Salvia"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle",
+      "Azafrán"
+    ],
+    "descripcion": "Fresca y masculina, mezcla limón, bergamota, palo de rosa con cedro, estragón, salvia y un fondo envolvente de ámbar, almizcle, azafrán.",
+    "imagenUrl": "/perfumes/EAU FRAICHE MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "candy-love-dama",
+    "slug": "candy-love-dama",
+    "nombre": "Candy Love Dama",
+    "marca": "Prada",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Cítricos"
+    ],
+    "notasCorazon": [
+      "Guisante de olor"
+    ],
+    "notasFondo": [
+      "Caramelo",
+      "Benjuí",
+      "Almizcle"
+    ],
+    "descripcion": "Una composición femenina y floral donde cítricos da paso a guisante de olor, sostenida por caramelo, benjuí, almizcle en el fondo.",
+    "imagenUrl": "/perfumes/CANDY LOVE_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "vulcan-baie-dama",
+    "slug": "vulcan-baie-dama",
+    "nombre": "Vulcan Baie Dama",
+    "marca": "French Avenue",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Zarzamora",
+      "Grosella negra",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Frambuesa",
+      "Albahaca"
+    ],
+    "notasFondo": [
+      "Fresa",
+      "Almizcle",
+      "Sándalo",
+      "Pachulí"
+    ],
+    "descripcion": "Salida de zarzamora, grosella negra, bergamota, corazón de frambuesa, albahaca y una base de fresa, almizcle, sándalo, pachulí que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/VULCAN BAIE_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "valentino-donna-eco",
+    "slug": "valentino-donna-eco",
+    "nombre": "Valentino Donna Eco",
+    "marca": "Valentino",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Iris",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Rosa de cuero"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Vainilla",
+      "Ámbar"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con iris, bergamota, evoluciona hacia rosa de cuero y cierra con un fondo de pachulí, vainilla, ámbar.",
+    "imagenUrl": "/perfumes/VALENTINO_DONNA ECO_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lacoste-white",
+    "slug": "lacoste-white",
+    "nombre": "Lacoste White",
+    "marca": "Lacoste",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Cítricos",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Notas ozónicas"
+    ],
+    "notasFondo": [
+      "Almizcle"
+    ],
+    "descripcion": "Combina cítricos, manzana en la salida con notas ozónicas en el corazón, sobre una base cálida de almizcle.",
+    "imagenUrl": "/perfumes/LACOSTE WHITE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lacoste-rouge",
+    "slug": "lacoste-rouge",
+    "nombre": "Lacoste Rouge",
+    "marca": "Lacoste",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Especias",
+      "Cítricos"
+    ],
+    "notasCorazon": [
+      "Pimienta"
+    ],
+    "notasFondo": [
+      "Cedro",
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y masculina, mezcla especias, cítricos con pimienta y un fondo envolvente de cedro, almizcle.",
+    "imagenUrl": "/perfumes/LACOSTE ROUGE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lacoste-noir",
+    "slug": "lacoste-noir",
+    "nombre": "Lacoste Noir",
+    "marca": "Lacoste",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Grosella negra"
+    ],
+    "notasCorazon": [
+      "Especias"
+    ],
+    "notasFondo": [
+      "Cedro",
+      "Pachulí"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde manzana, grosella negra da paso a especias, sostenida por cedro, pachulí en el fondo.",
+    "imagenUrl": "/perfumes/LACOSTE NOIR_(1OOML).png",
+    "destacado": false
+  },
+  {
+    "id": "lacoste-essential",
+    "slug": "lacoste-essential",
+    "nombre": "Lacoste Essential",
+    "marca": "Lacoste",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Bergamota",
+      "Romero"
+    ],
+    "notasCorazon": [
+      "Especias"
+    ],
+    "notasFondo": [
+      "Cedro",
+      "Vetiver"
+    ],
+    "descripcion": "Salida de bergamota, romero, corazón de especias y una base de cedro, vetiver que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/LACOSTE_ESSENTIAL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "valentino-born-in-roma-full",
+    "slug": "valentino-born-in-roma-full",
+    "nombre": "Valentino Born in Roma Full",
+    "marca": "Valentino",
+    "precio": 95000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pimienta negra",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Ámbar"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con pimienta negra, bergamota, evoluciona hacia jazmín y cierra con un fondo de vainilla, almizcle, ámbar.",
+    "imagenUrl": "/perfumes/VALENTINO BORN_IN ROMA FULL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "valentino-donna-full",
+    "slug": "valentino-donna-full",
+    "nombre": "Valentino Donna Full",
+    "marca": "Valentino",
+    "precio": 95000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Iris",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Rosa de cuero"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Vainilla",
+      "Ámbar"
+    ],
+    "descripcion": "Combina iris, bergamota en la salida con rosa de cuero en el corazón, sobre una base cálida de pachulí, vainilla, ámbar.",
+    "imagenUrl": "/perfumes/VALENTINO_DONA FULL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "valentino-intense-full",
+    "slug": "valentino-intense-full",
+    "nombre": "Valentino Intense Full",
+    "marca": "Valentino",
+    "precio": 95000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Iris",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Rosa de cuero"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Vainilla",
+      "Ámbar"
+    ],
+    "descripcion": "Fresca y femenina, mezcla iris, bergamota con rosa de cuero y un fondo envolvente de pachulí, vainilla, ámbar.",
+    "imagenUrl": "/perfumes/VALENTINO_INTENSE FULL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "moschino-toy-2-pear",
+    "slug": "moschino-toy-2-pear",
+    "nombre": "Moschino Toy 2 Pear",
+    "marca": "Moschino",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pera",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Cedro",
+      "Ámbar"
+    ],
+    "descripcion": "Una composición femenina y floral donde pera, manzana da paso a rosa, sostenida por almizcle, cedro, ámbar en el fondo.",
+    "imagenUrl": "/perfumes/MOSCHINO TOY 2_PEAR C.G (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "moschino-toy-2-bubble-gum",
+    "slug": "moschino-toy-2-bubble-gum",
+    "nombre": "Moschino Toy 2 Bubble Gum",
+    "marca": "Moschino",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Chicle",
+      "Frutos rojos"
+    ],
+    "notasCorazon": [
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Salida de chicle, frutos rojos, corazón de rosa y una base de almizcle, sándalo que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/MOSCHINO TOY 2_BUBBLE GUM C.G_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "moschino-toy-2",
+    "slug": "moschino-toy-2",
+    "nombre": "Moschino Toy 2",
+    "marca": "Moschino",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Manzana",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Cedro"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con manzana, bergamota, evoluciona hacia rosa, jazmín y cierra con un fondo de almizcle, cedro.",
+    "imagenUrl": "/perfumes/MOSCHINO TOY 2_C.G (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "moschino-toy-boy",
+    "slug": "moschino-toy-boy",
+    "nombre": "Moschino Toy Boy",
+    "marca": "Moschino",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Néctar de albaricoque",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Iris",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Cedro",
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Combina néctar de albaricoque, bergamota en la salida con iris, jazmín en el corazón, sobre una base cálida de cedro, almizcle, vainilla.",
+    "imagenUrl": "/perfumes/MOSCHINO TOY_BOY C.G (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "moschino-funny",
+    "slug": "moschino-funny",
+    "nombre": "Moschino Funny",
+    "marca": "Moschino",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Naranja",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Manzanilla"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Fresca y femenina, mezcla naranja, mandarina con rosa, manzanilla y un fondo envolvente de almizcle, sándalo.",
+    "imagenUrl": "/perfumes/MOSCHINO_FUNNY (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "moschino-pink-fresh",
+    "slug": "moschino-pink-fresh",
+    "nombre": "Moschino Pink Fresh",
+    "marca": "Moschino",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Toronja",
+      "Flor de azahar"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Una composición femenina y floral donde toronja, flor de azahar da paso a rosa, jazmín, sostenida por almizcle, vainilla en el fondo.",
+    "imagenUrl": "/perfumes/MOSCHINO PINK_FRESH (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "touch-dama",
+    "slug": "touch-dama",
+    "nombre": "Touch Dama",
+    "marca": "Burberry",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Mimosa",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Iris"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Vainilla"
+    ],
+    "descripcion": "Salida de mimosa, mandarina, corazón de jazmín, iris y una base de sándalo, vainilla que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/TOUCH DAMA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "viva-la-juicy-dama",
+    "slug": "viva-la-juicy-dama",
+    "nombre": "Viva la Juicy Dama",
+    "marca": "Juicy Couture",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Bayas silvestres",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Madreselva",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Ámbar",
+      "Sándalo"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con bayas silvestres, mandarina, evoluciona hacia madreselva, jazmín y cierra con un fondo de vainilla, ámbar, sándalo.",
+    "imagenUrl": "/perfumes/VIVA LA JUICY_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "ck-be-unisex",
+    "slug": "ck-be-unisex",
+    "nombre": "CK Be Unisex",
+    "marca": "Calvin Klein",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Mandarina",
+      "Lavanda"
+    ],
+    "notasCorazon": [
+      "Nuez moscada"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Ámbar",
+      "Almizcle"
+    ],
+    "descripcion": "Combina mandarina, lavanda en la salida con nuez moscada en el corazón, sobre una base cálida de sándalo, ámbar, almizcle.",
+    "imagenUrl": "/perfumes/CK BE UNISEX_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "ck-one",
+    "slug": "ck-one",
+    "nombre": "CK One",
+    "marca": "Calvin Klein",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Cítricos",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Violeta"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ámbar",
+      "Sándalo"
+    ],
+    "descripcion": "Fresca y versátil, mezcla cítricos, bergamota con jazmín, violeta y un fondo envolvente de almizcle, ámbar, sándalo.",
+    "imagenUrl": "/perfumes/CK ONE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "light-blue-dama",
+    "slug": "light-blue-dama",
+    "nombre": "Light Blue Dama",
+    "marca": "Dolce & Gabbana",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Limón",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Campanilla",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ámbar",
+      "Cedro"
+    ],
+    "descripcion": "Salida de limón, manzana, corazón de campanilla, jazmín y una base de almizcle, ámbar, cedro que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/LIGHT BLUE_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "coco-chanel",
+    "slug": "coco-chanel",
+    "nombre": "Coco Chanel",
+    "marca": "Chanel",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Naranja",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Opoponax",
+      "Vainilla",
+      "Pachulí"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con naranja, mandarina, evoluciona hacia jazmín, rosa y cierra con un fondo de opoponax, vainilla, pachulí.",
+    "imagenUrl": "/perfumes/COCO CHANEL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bleu-de-chanel",
+    "slug": "bleu-de-chanel",
+    "nombre": "Bleu de Chanel",
+    "marca": "Chanel",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Toronja",
+      "Menta"
+    ],
+    "notasCorazon": [
+      "Jengibre",
+      "Nuez moscada"
+    ],
+    "notasFondo": [
+      "Incienso",
+      "Sándalo",
+      "Cedro"
+    ],
+    "descripcion": "Combina toronja, menta en la salida con jengibre, nuez moscada en el corazón, sobre una base cálida de incienso, sándalo, cedro.",
+    "imagenUrl": "/perfumes/BLEU DE CHANEL_(100ML).png",
+    "destacado": true
+  },
+  {
+    "id": "chance-chanel-eau-tendre",
+    "slug": "chance-chanel-eau-tendre",
+    "nombre": "Chance Chanel Eau Tendre",
+    "marca": "Chanel",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Membrillo",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Jacinto"
+    ],
+    "notasFondo": [
+      "Almizcle blanco",
+      "Ámbar"
+    ],
+    "descripcion": "Fresca y femenina, mezcla membrillo, toronja con jazmín, jacinto y un fondo envolvente de almizcle blanco, ámbar.",
+    "imagenUrl": "/perfumes/CHANCE CHANEL_EU TENDRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "chance-chanel-eau-fraiche",
+    "slug": "chance-chanel-eau-fraiche",
+    "nombre": "Chance Chanel Eau Fraiche",
+    "marca": "Chanel",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Cítricos",
+      "Pimienta rosa"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Iris"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Madera de teca"
+    ],
+    "descripcion": "Una composición femenina y floral donde cítricos, pimienta rosa da paso a jazmín, iris, sostenida por almizcle, madera de teca en el fondo.",
+    "imagenUrl": "/perfumes/CHANCE CHANEL_EU FRAICHE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "chance-chanel-tradicional",
+    "slug": "chance-chanel-tradicional",
+    "nombre": "Chance Chanel Tradicional",
+    "marca": "Chanel",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pimienta rosa",
+      "Piña"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Iris"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Vetiver",
+      "Almizcle"
+    ],
+    "descripcion": "Salida de pimienta rosa, piña, corazón de jazmín, iris y una base de pachulí, vetiver, almizcle que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/CHANCE CHANEL_TRADICIONAL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "tommy-men",
+    "slug": "tommy-men",
+    "nombre": "Tommy Men",
+    "marca": "Tommy Hilfiger",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Mandarina",
+      "Albahaca"
+    ],
+    "notasCorazon": [
+      "Musgo de roble",
+      "Cedro"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con manzana, mandarina, albahaca, evoluciona hacia musgo de roble, cedro y cierra con un fondo de ámbar, almizcle.",
+    "imagenUrl": "/perfumes/TOMMY MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "tommy-girl",
+    "slug": "tommy-girl",
+    "nombre": "Tommy Girl",
+    "marca": "Tommy Hilfiger",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Cítricos",
+      "Caléndula"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Madreselva"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle",
+      "Musgo de roble"
+    ],
+    "descripcion": "Combina cítricos, caléndula en la salida con jazmín, madreselva en el corazón, sobre una base cálida de sándalo, almizcle, musgo de roble.",
+    "imagenUrl": "/perfumes/TOMMY GIRL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "blue-seduction",
+    "slug": "blue-seduction",
+    "nombre": "Blue Seduction",
+    "marca": "Antonio Banderas",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Menta"
+    ],
+    "notasCorazon": [
+      "Lavanda"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y masculina, mezcla manzana, menta con lavanda y un fondo envolvente de maderas, almizcle.",
+    "imagenUrl": "/perfumes/BLUE SEDUCTION_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "stronger-with-you-intensely-men",
+    "slug": "stronger-with-you-intensely-men",
+    "nombre": "Stronger With You Intensely Men",
+    "marca": "Emporio Armani",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Cardamomo",
+      "Pimienta rosa"
+    ],
+    "notasCorazon": [
+      "Castaña",
+      "Salvia"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Vainilla",
+      "Haba tonka"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde cardamomo, pimienta rosa da paso a castaña, salvia, sostenida por ámbar, vainilla, haba tonka en el fondo.",
+    "imagenUrl": "/perfumes/STRONGER_INTESLY MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "limperatrice-dama",
+    "slug": "limperatrice-dama",
+    "nombre": "L'Imperatrice Dama",
+    "marca": "Dolce & Gabbana",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Kiwi",
+      "Ruibarbo",
+      "Pimienta rosa"
+    ],
+    "notasCorazon": [
+      "Sandía",
+      "Ciclamen",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Árbol de limón",
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Salida de kiwi, ruibarbo, pimienta rosa, corazón de sandía, ciclamen, jazmín y una base de árbol de limón, almizcle, sándalo que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/L’IMPERATRICE_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "polo-blue-men",
+    "slug": "polo-blue-men",
+    "nombre": "Polo Blue Men",
+    "marca": "Ralph Lauren",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Melón",
+      "Pepino"
+    ],
+    "notasCorazon": [
+      "Salvia",
+      "Geranio"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Musgo de roble"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con melón, pepino, evoluciona hacia salvia, geranio y cierra con un fondo de almizcle, musgo de roble.",
+    "imagenUrl": "/perfumes/POLO BLUE MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "polo-red-men",
+    "slug": "polo-red-men",
+    "nombre": "Polo Red Men",
+    "marca": "Ralph Lauren",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Bayas rojas",
+      "Limón"
+    ],
+    "notasCorazon": [
+      "Azafrán"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Ámbar"
+    ],
+    "descripcion": "Combina bayas rojas, limón en la salida con azafrán en el corazón, sobre una base cálida de maderas, ámbar.",
+    "imagenUrl": "/perfumes/POLO RED MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "ralph-dama",
+    "slug": "ralph-dama",
+    "nombre": "Ralph Dama",
+    "marca": "Ralph Lauren",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Manzana verde",
+      "Iris"
+    ],
+    "notasCorazon": [
+      "Violeta"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Cedro",
+      "Magnolia"
+    ],
+    "descripcion": "Fresca y femenina, mezcla manzana verde, iris con violeta y un fondo envolvente de almizcle, cedro, magnolia.",
+    "imagenUrl": "/perfumes/RALPH DAMA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "hugo-boss-the-scent-absolute",
+    "slug": "hugo-boss-the-scent-absolute",
+    "nombre": "Hugo Boss The Scent Absolute",
+    "marca": "Hugo Boss",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Fruta maninka",
+      "Jengibre"
+    ],
+    "notasCorazon": [
+      "Especias"
+    ],
+    "notasFondo": [
+      "Cuero"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde fruta maninka, jengibre da paso a especias, sostenida por cuero en el fondo.",
+    "imagenUrl": "/perfumes/HUGO BOSS THE_SCENT ABSOLUT_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "hugo-boss-bottled",
+    "slug": "hugo-boss-bottled",
+    "nombre": "Hugo Boss Bottled",
+    "marca": "Hugo Boss",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Ciruela"
+    ],
+    "notasCorazon": [
+      "Canela",
+      "Geranio"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Vetiver"
+    ],
+    "descripcion": "Salida de manzana, ciruela, corazón de canela, geranio y una base de sándalo, vetiver que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/HUGO BOSS_BOTTLED (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "hugo-boss-night-men",
+    "slug": "hugo-boss-night-men",
+    "nombre": "Hugo Boss Night Men",
+    "marca": "Hugo Boss",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Lavanda",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Madera de abedul"
+    ],
+    "notasFondo": [
+      "Cuero",
+      "Pachulí"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con lavanda, bergamota, evoluciona hacia madera de abedul y cierra con un fondo de cuero, pachulí.",
+    "imagenUrl": "/perfumes/HUGO BOSS NIGHT MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "hugo-boss-man",
+    "slug": "hugo-boss-man",
+    "nombre": "Hugo Boss Man",
+    "marca": "Hugo Boss",
+    "precio": null,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Limón"
+    ],
+    "notasCorazon": [
+      "Geranio",
+      "Clavo"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Cedro"
+    ],
+    "descripcion": "Combina manzana, limón en la salida con geranio, clavo en el corazón, sobre una base cálida de sándalo, cedro.",
+    "imagenUrl": "/perfumes/HUGO BOSS MAN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "creed-aventus",
+    "slug": "creed-aventus",
+    "nombre": "Creed Aventus",
+    "marca": "Creed",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Piña",
+      "Grosella negra",
+      "Bergamota",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Abedul",
+      "Pachulí",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Musgo de roble",
+      "Ámbar gris",
+      "Vainilla"
+    ],
+    "descripcion": "Fresca y masculina, mezcla piña, grosella negra, bergamota, manzana con abedul, pachulí, jazmín y un fondo envolvente de almizcle, musgo de roble, ámbar gris, vainilla.",
+    "imagenUrl": "/perfumes/CREED AVENTUS_(1OOML).png",
+    "destacado": true
+  },
+  {
+    "id": "creed-silver-mountain-water",
+    "slug": "creed-silver-mountain-water",
+    "nombre": "Creed Silver Mountain Water",
+    "marca": "Creed",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Té verde",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Grosella negra",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde bergamota, té verde, mandarina da paso a grosella negra, jazmín, sostenida por sándalo, almizcle en el fondo.",
+    "imagenUrl": "/perfumes/CREED SILVER_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "montblanc-legend-parfum",
+    "slug": "montblanc-legend-parfum",
+    "nombre": "Montblanc Legend Parfum",
+    "marca": "Montblanc",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Bergamota",
+      "Lavanda"
+    ],
+    "notasCorazon": [
+      "Musgo de roble",
+      "Geranio"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Haba tonka",
+      "Cumarina"
+    ],
+    "descripcion": "Salida de manzana, bergamota, lavanda, corazón de musgo de roble, geranio y una base de sándalo, haba tonka, cumarina que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/MONT BLACK_PARFUM (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "starwalker-montblanc",
+    "slug": "starwalker-montblanc",
+    "nombre": "Starwalker Montblanc",
+    "marca": "Montblanc",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Cardamomo",
+      "Pimienta"
+    ],
+    "notasCorazon": [
+      "Maderas"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vetiver"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con cardamomo, pimienta, evoluciona hacia maderas y cierra con un fondo de almizcle, vetiver.",
+    "imagenUrl": "/perfumes/STARWALKER_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "swiss-army-men",
+    "slug": "swiss-army-men",
+    "nombre": "Swiss Army Men",
+    "marca": "Victorinox Swiss Army",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Cítricos",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Menta"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Sándalo",
+      "Cedro"
+    ],
+    "descripcion": "Combina cítricos, manzana en la salida con menta en el corazón, sobre una base cálida de almizcle, sándalo, cedro.",
+    "imagenUrl": "/perfumes/SWISS ARMY MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "swiss-army-red-men",
+    "slug": "swiss-army-red-men",
+    "nombre": "Swiss Army Red Men",
+    "marca": "Victorinox Swiss Army",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Frutos rojos especiados",
+      "Canela"
+    ],
+    "notasCorazon": [
+      "Especias"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Maderas"
+    ],
+    "descripcion": "Fresca y masculina, mezcla frutos rojos especiados, canela con especias y un fondo envolvente de ámbar, maderas.",
+    "imagenUrl": "/perfumes/SWISS ARMY RED_MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "meow-dama",
+    "slug": "meow-dama",
+    "nombre": "Meow Dama",
+    "marca": "Katy Perry",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pera",
+      "Mandarina",
+      "Gardenia",
+      "Jazmín"
+    ],
+    "notasCorazon": [
+      "Madreselva",
+      "Flor de naranjo",
+      "Lirio"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Ámbar",
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Una composición femenina y floral donde pera, mandarina, gardenia, jazmín da paso a madreselva, flor de naranjo, lirio, sostenida por vainilla, ámbar, almizcle, sándalo en el fondo.",
+    "imagenUrl": "/perfumes/MEOW DAMA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "black-opium-dama",
+    "slug": "black-opium-dama",
+    "nombre": "Black Opium Dama",
+    "marca": "Yves Saint Laurent",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Café negro",
+      "Pera"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Flor de naranjo"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Pachulí",
+      "Cedro"
+    ],
+    "descripcion": "Salida de café negro, pera, corazón de jazmín, flor de naranjo y una base de vainilla, pachulí, cedro que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/BLACK OPIUM_DAMA (100 ML).png",
+    "destacado": true
+  },
+  {
+    "id": "versace-eros-tradicional",
+    "slug": "versace-eros-tradicional",
+    "nombre": "Versace Eros Tradicional",
+    "marca": "Versace",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Menta",
+      "Manzana verde",
+      "Limón"
+    ],
+    "notasCorazon": [
+      "Haba tonka",
+      "Geranio",
+      "Ambroxan"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Vetiver",
+      "Musgo de roble",
+      "Cedro"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con menta, manzana verde, limón, evoluciona hacia haba tonka, geranio, ambroxan y cierra con un fondo de vainilla, vetiver, musgo de roble, cedro.",
+    "imagenUrl": "/perfumes/VERSACE EROS_TRADICIONAL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "versace-eros-flame",
+    "slug": "versace-eros-flame",
+    "nombre": "Versace Eros Flame",
+    "marca": "Versace",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Naranja sanguina",
+      "Pimienta negra"
+    ],
+    "notasCorazon": [
+      "Lavanda"
+    ],
+    "notasFondo": [
+      "Haba tonka",
+      "Vainilla",
+      "Ámbar"
+    ],
+    "descripcion": "Combina naranja sanguina, pimienta negra en la salida con lavanda en el corazón, sobre una base cálida de haba tonka, vainilla, ámbar.",
+    "imagenUrl": "/perfumes/VERSACE EROS_FLAME (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "versace-eros-energy",
+    "slug": "versace-eros-energy",
+    "nombre": "Versace Eros Energy",
+    "marca": "Versace",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Menta",
+      "Lima"
+    ],
+    "notasCorazon": [
+      "Salvia"
+    ],
+    "notasFondo": [
+      "Vetiver",
+      "Ámbar"
+    ],
+    "descripcion": "Fresca y masculina, mezcla menta, lima con salvia y un fondo envolvente de vetiver, ámbar.",
+    "imagenUrl": "/perfumes/VERSACE EROS_ENERGY (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "versace-bright-crystal",
+    "slug": "versace-bright-crystal",
+    "nombre": "Versace Bright Crystal",
+    "marca": "Versace",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Granada",
+      "Yuzu"
+    ],
+    "notasCorazon": [
+      "Peonía",
+      "Magnolia",
+      "Loto"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ámbar",
+      "Caoba"
+    ],
+    "descripcion": "Una composición femenina y floral donde granada, yuzu da paso a peonía, magnolia, loto, sostenida por almizcle, ámbar, caoba en el fondo.",
+    "imagenUrl": "/perfumes/VERSACE BRIGT_CRISTAL (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "arabians-tonka",
+    "slug": "arabians-tonka",
+    "nombre": "Arabians Tonka",
+    "marca": "Montale",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Azafrán"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Oud"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Musgo de roble",
+      "Haba tonka",
+      "Azúcar morena"
+    ],
+    "descripcion": "Salida de bergamota, azafrán, corazón de rosa, oud y una base de ámbar, musgo de roble, haba tonka, azúcar morena que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ARABIANS_TONKA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "starry-nights",
+    "slug": "starry-nights",
+    "nombre": "Starry Nights",
+    "marca": "Montale",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Pimienta rosa"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Ylang ylang"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con bergamota, pimienta rosa, evoluciona hacia rosa, ylang ylang y cierra con un fondo de ámbar, almizcle, vainilla.",
+    "imagenUrl": "/perfumes/STARRY NIGTH_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "ari-by-ariana-grande",
+    "slug": "ari-by-ariana-grande",
+    "nombre": "Ari by Ariana Grande",
+    "marca": "Ariana Grande",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pera",
+      "Bayas rojas"
+    ],
+    "notasCorazon": [
+      "Vainilla"
+    ],
+    "notasFondo": [
+      "Caramelo",
+      "Sándalo",
+      "Almizcle"
+    ],
+    "descripcion": "Combina pera, bayas rojas en la salida con vainilla en el corazón, sobre una base cálida de caramelo, sándalo, almizcle.",
+    "imagenUrl": "/perfumes/ARI- ARIADNA_GRANDE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "cloud-tradicional-ariana-grande",
+    "slug": "cloud-tradicional-ariana-grande",
+    "nombre": "Cloud Tradicional Ariana Grande",
+    "marca": "Ariana Grande",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Lavanda",
+      "Bergamota",
+      "Pera"
+    ],
+    "notasCorazon": [
+      "Praliné",
+      "Coco"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla orquídea",
+      "Maderas"
+    ],
+    "descripcion": "Fresca y femenina, mezcla lavanda, bergamota, pera con praliné, coco y un fondo envolvente de almizcle, vainilla orquídea, maderas.",
+    "imagenUrl": "/perfumes/CLOUD TRADICIONAL_ARIADNA GRANDE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "cloud-pink-ariana-grande",
+    "slug": "cloud-pink-ariana-grande",
+    "nombre": "Cloud Pink Ariana Grande",
+    "marca": "Ariana Grande",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Coco",
+      "Pistacho"
+    ],
+    "notasCorazon": [
+      "Crema batida",
+      "Zarzamora"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Una composición femenina y floral donde coco, pistacho da paso a crema batida, zarzamora, sostenida por almizcle, vainilla en el fondo.",
+    "imagenUrl": "/perfumes/CLOUD PINK_ARIADNA GRANDE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "cloud-2-0-dama",
+    "slug": "cloud-2-0-dama",
+    "nombre": "Cloud 2.0 Dama",
+    "marca": "Ariana Grande",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Coco",
+      "Pera"
+    ],
+    "notasCorazon": [
+      "Crema",
+      "Flores blancas"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Salida de coco, pera, corazón de crema, flores blancas y una base de almizcle, vainilla que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/CLOUD 2.0 DAMA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "thank-u-next-ariana-grande",
+    "slug": "thank-u-next-ariana-grande",
+    "nombre": "Thank U Next Ariana Grande",
+    "marca": "Ariana Grande",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Coco",
+      "Arroz con leche"
+    ],
+    "notasCorazon": [
+      "Algodón de azúcar",
+      "Malvavisco"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con coco, arroz con leche, evoluciona hacia algodón de azúcar, malvavisco y cierra con un fondo de vainilla, almizcle.",
+    "imagenUrl": "/perfumes/THANK U NEXT_ARIADNA GRANDE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "sweet-candy",
+    "slug": "sweet-candy",
+    "nombre": "Sweet Candy",
+    "marca": "Ariana Grande",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Grosella negra",
+      "Bergamota",
+      "Zarzamora",
+      "Pera"
+    ],
+    "notasCorazon": [
+      "Madreselva",
+      "Malvavisco",
+      "Frangipani",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Cashmere wood",
+      "Vainilla"
+    ],
+    "descripcion": "Combina grosella negra, bergamota, zarzamora, pera en la salida con madreselva, malvavisco, frangipani, jazmín en el corazón, sobre una base cálida de cashmere wood, vainilla.",
+    "imagenUrl": "/perfumes/SWEET CANDY_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "fahrenheit",
+    "slug": "fahrenheit",
+    "nombre": "Fahrenheit",
+    "marca": "Dior",
+    "precio": 72000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Mandarina",
+      "Lavanda",
+      "Nuez moscada"
+    ],
+    "notasCorazon": [
+      "Violeta",
+      "Cedro"
+    ],
+    "notasFondo": [
+      "Cuero",
+      "Sándalo",
+      "Ámbar"
+    ],
+    "descripcion": "Fresca y masculina, mezcla mandarina, lavanda, nuez moscada con violeta, cedro y un fondo envolvente de cuero, sándalo, ámbar.",
+    "imagenUrl": "/perfumes/FAHRENHEIT_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "sauvage-dior",
+    "slug": "sauvage-dior",
+    "nombre": "Sauvage Dior",
+    "marca": "Dior",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Bergamota",
+      "Pimienta de Sichuan"
+    ],
+    "notasCorazon": [
+      "Lavanda",
+      "Geranio"
+    ],
+    "notasFondo": [
+      "Ambroxan",
+      "Cedro"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde bergamota, pimienta de sichuan da paso a lavanda, geranio, sostenida por ambroxan, cedro en el fondo.",
+    "imagenUrl": "/perfumes/SAUVAGE (1OOML).png",
+    "destacado": true
+  },
+  {
+    "id": "odyssey-mandarin-sky",
+    "slug": "odyssey-mandarin-sky",
+    "nombre": "Odyssey Mandarin Sky",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Mandarina",
+      "Naranja",
+      "Azafrán",
+      "Salvia"
+    ],
+    "notasCorazon": [
+      "Caramelo",
+      "Haba tonka",
+      "Caléndula"
+    ],
+    "notasFondo": [
+      "Ambroxan",
+      "Cedro",
+      "Vetiver"
+    ],
+    "descripcion": "Salida de mandarina, naranja, azafrán, salvia, corazón de caramelo, haba tonka, caléndula y una base de ambroxan, cedro, vetiver que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ODYSSEY_MANDARIN SKY_MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-mandarin-sky-elixir",
+    "slug": "odyssey-mandarin-sky-elixir",
+    "nombre": "Odyssey Mandarin Sky Elixir",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Mandarina",
+      "Naranja",
+      "Azafrán"
+    ],
+    "notasCorazon": [
+      "Caramelo",
+      "Haba tonka"
+    ],
+    "notasFondo": [
+      "Ambroxan",
+      "Cedro",
+      "Ámbar"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con mandarina, naranja, azafrán, evoluciona hacia caramelo, haba tonka y cierra con un fondo de ambroxan, cedro, ámbar.",
+    "imagenUrl": "/perfumes/ODYSSEY_MANDARIN SKY_ELIXIR (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-limoni",
+    "slug": "odyssey-limoni",
+    "nombre": "Odyssey Limoni",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Limón",
+      "Naranja dulce",
+      "Mandarina",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Flor de azahar",
+      "Notas marinas",
+      "Jengibre"
+    ],
+    "notasFondo": [
+      "Té",
+      "Almizcle",
+      "Ámbar"
+    ],
+    "descripcion": "Combina limón, naranja dulce, mandarina, bergamota en la salida con flor de azahar, notas marinas, jengibre en el corazón, sobre una base cálida de té, almizcle, ámbar.",
+    "imagenUrl": "/perfumes/ODYSSEY LIMONI_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-mega",
+    "slug": "odyssey-mega",
+    "nombre": "Odyssey Mega",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Naranja",
+      "Bergamota",
+      "Limón",
+      "Jengibre",
+      "Menta"
+    ],
+    "notasCorazon": [
+      "Piña",
+      "Salvia",
+      "Enebro",
+      "Geranio"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Cedro",
+      "Haba tonka",
+      "Vetiver"
+    ],
+    "descripcion": "Fresca y masculina, mezcla naranja, bergamota, limón, jengibre, menta con piña, salvia, enebro, geranio y un fondo envolvente de almizcle, cedro, haba tonka, vetiver.",
+    "imagenUrl": "/perfumes/ODYSSEY MEGA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-artisto",
+    "slug": "odyssey-artisto",
+    "nombre": "Odyssey Artisto",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Notas de frutos secos",
+      "Salvia"
+    ],
+    "notasCorazon": [
+      "Coco",
+      "Frutas tropicales",
+      "Canela"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Haba tonka",
+      "Ámbar"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde bergamota, notas de frutos secos, salvia da paso a coco, frutas tropicales, canela, sostenida por vainilla, haba tonka, ámbar en el fondo.",
+    "imagenUrl": "/perfumes/ODYSSEY_ARTISTO (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-toffee-coffee",
+    "slug": "odyssey-toffee-coffee",
+    "nombre": "Odyssey Toffee Coffee",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Café",
+      "Dulce de leche",
+      "Miel",
+      "Azafrán"
+    ],
+    "notasCorazon": [
+      "Toffee",
+      "Musgo de roble",
+      "Rosa búlgara"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Caña de azúcar",
+      "Ámbar",
+      "Almizcle blanco"
+    ],
+    "descripcion": "Salida de café, dulce de leche, miel, azafrán, corazón de toffee, musgo de roble, rosa búlgara y una base de vainilla, caña de azúcar, ámbar, almizcle blanco que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ODYSSEY TOFFEE_COFFE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-spectra",
+    "slug": "odyssey-spectra",
+    "nombre": "Odyssey Spectra",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Canela",
+      "Manzana",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Lavanda",
+      "Flor de azahar",
+      "Lirio de los valles"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Tabaco",
+      "Ámbar",
+      "Haba tonka",
+      "Pachulí"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con canela, manzana, bergamota, evoluciona hacia lavanda, flor de azahar, lirio de los valles y cierra con un fondo de vainilla, tabaco, ámbar, haba tonka, pachulí.",
+    "imagenUrl": "/perfumes/ODYSSEY_SPECTRA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-tyrant-men",
+    "slug": "odyssey-tyrant-men",
+    "nombre": "Odyssey Tyrant Men",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Toronja",
+      "Cítricos"
+    ],
+    "notasCorazon": [
+      "Pimienta",
+      "Lavanda",
+      "Geranio"
+    ],
+    "notasFondo": [
+      "Ambroxan",
+      "Maderas",
+      "Vetiver",
+      "Cedro"
+    ],
+    "descripcion": "Combina toronja, cítricos en la salida con pimienta, lavanda, geranio en el corazón, sobre una base cálida de ambroxan, maderas, vetiver, cedro.",
+    "imagenUrl": "/perfumes/ODYSSEY_TYRANT MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-homme-white-men",
+    "slug": "odyssey-homme-white-men",
+    "nombre": "Odyssey Homme White Men",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Pimienta rosa",
+      "Yuzu",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Hoja de violeta",
+      "Notas marinas"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Ambarwood",
+      "Madera de guayaco"
+    ],
+    "descripcion": "Fresca y masculina, mezcla pimienta rosa, yuzu, toronja con hoja de violeta, notas marinas y un fondo envolvente de ámbar, ambarwood, madera de guayaco.",
+    "imagenUrl": "/perfumes/ODYSSEY HOMME_WHITE MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-marshmallow-dama",
+    "slug": "odyssey-marshmallow-dama",
+    "nombre": "Odyssey Marshmallow Dama",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Coco",
+      "Manzana",
+      "Peonía"
+    ],
+    "notasCorazon": [
+      "Malvavisco",
+      "Fresa",
+      "Frambuesa"
+    ],
+    "notasFondo": [
+      "Mascarpone",
+      "Vainilla",
+      "Praliné",
+      "Almizcle"
+    ],
+    "descripcion": "Una composición femenina y floral donde coco, manzana, peonía da paso a malvavisco, fresa, frambuesa, sostenida por mascarpone, vainilla, praliné, almizcle en el fondo.",
+    "imagenUrl": "/perfumes/ODYSSEY_MAASHMELLOW_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "odyssey-go-mango-unisex",
+    "slug": "odyssey-go-mango-unisex",
+    "nombre": "Odyssey Go Mango Unisex",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Limón",
+      "Pimienta rosa",
+      "Jengibre"
+    ],
+    "notasCorazon": [
+      "Mango",
+      "Haba tonka"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Ámbar",
+      "Guayaco",
+      "Almizcle"
+    ],
+    "descripcion": "Salida de limón, pimienta rosa, jengibre, corazón de mango, haba tonka y una base de vainilla, ámbar, guayaco, almizcle que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ODYSSEY GO_MANGO UNISEX_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "club-de-nuit-oud",
+    "slug": "club-de-nuit-oud",
+    "nombre": "Club de Nuit Oud",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Durazno",
+      "Pera",
+      "Maracuyá",
+      "Piña"
+    ],
+    "notasCorazon": [
+      "Cashmere wood",
+      "Jazmín",
+      "Fresia"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Oud camboyano",
+      "Vainilla",
+      "Ámbar cristal"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con durazno, pera, maracuyá, piña, evoluciona hacia cashmere wood, jazmín, fresia y cierra con un fondo de almizcle, oud camboyano, vainilla, ámbar cristal.",
+    "imagenUrl": "/perfumes/CLUB DE NUIT OUD_CAJA UNISEX_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "clinique-happy-men",
+    "slug": "clinique-happy-men",
+    "nombre": "Clinique Happy Men",
+    "marca": "Clinique",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Mandarina",
+      "Mango"
+    ],
+    "notasCorazon": [
+      "Lirio"
+    ],
+    "notasFondo": [
+      "Maderas",
+      "Almizcle"
+    ],
+    "descripcion": "Combina mandarina, mango en la salida con lirio en el corazón, sobre una base cálida de maderas, almizcle.",
+    "imagenUrl": "/perfumes/CLINIQUE HAPPY_MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "club-de-nuit-intense",
+    "slug": "club-de-nuit-intense",
+    "nombre": "Club de Nuit Intense",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Piña",
+      "Grosella negra",
+      "Manzana"
+    ],
+    "notasCorazon": [
+      "Abedul",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Musgo de roble",
+      "Ámbar gris"
+    ],
+    "descripcion": "Fresca y masculina, mezcla piña, grosella negra, manzana con abedul, jazmín y un fondo envolvente de almizcle, musgo de roble, ámbar gris.",
+    "imagenUrl": "/perfumes/CLUB DE NUIT_INTENSE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "club-de-nuit-women",
+    "slug": "club-de-nuit-women",
+    "nombre": "Club de Nuit Women",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Naranja",
+      "Bergamota",
+      "Toronja",
+      "Durazno"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Jazmín",
+      "Geranio",
+      "Lichi"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Almizcle",
+      "Vainilla",
+      "Vetiver"
+    ],
+    "descripcion": "Una composición femenina y floral donde naranja, bergamota, toronja, durazno da paso a rosa, jazmín, geranio, lichi, sostenida por pachulí, almizcle, vainilla, vetiver en el fondo.",
+    "imagenUrl": "/perfumes/CLUB DE NUIT_WOMEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "club-de-nuit-sillage",
+    "slug": "club-de-nuit-sillage",
+    "nombre": "Club de Nuit Sillage",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Limón",
+      "Lima",
+      "Grosella negra"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Iris",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Ambroxan",
+      "Almizcle",
+      "Sándalo",
+      "Cedro"
+    ],
+    "descripcion": "Salida de bergamota, limón, lima, grosella negra, corazón de rosa, iris, jazmín y una base de ambroxan, almizcle, sándalo, cedro que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/CLUB DE NUIT_SILLAGE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "club-de-nuit-untold",
+    "slug": "club-de-nuit-untold",
+    "nombre": "Club de Nuit Untold",
+    "marca": "Armaf",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Azafrán",
+      "Jazmín"
+    ],
+    "notasCorazon": [
+      "Ambarwood",
+      "Ámbar gris"
+    ],
+    "notasFondo": [
+      "Resina de abeto",
+      "Cedro"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con azafrán, jazmín, evoluciona hacia ambarwood, ámbar gris y cierra con un fondo de resina de abeto, cedro.",
+    "imagenUrl": "/perfumes/CLUB DE NUIT_UNTOLD (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "island-breeze",
+    "slug": "island-breeze",
+    "nombre": "Island Breeze",
+    "marca": "Armaf",
+    "precio": null,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Durazno rosado",
+      "Bergamota",
+      "Bayas silvestres"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Davana",
+      "Vainilla"
+    ],
+    "notasFondo": [
+      "Almizcle blanco",
+      "Notas polvorientas",
+      "Ámbar"
+    ],
+    "descripcion": "Combina durazno rosado, bergamota, bayas silvestres en la salida con rosa, davana, vainilla en el corazón, sobre una base cálida de almizcle blanco, notas polvorientas, ámbar.",
+    "imagenUrl": "/perfumes/ISLAND BREZZE_CAJA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "island-bliss",
+    "slug": "island-bliss",
+    "nombre": "Island Bliss",
+    "marca": "Armaf",
+    "precio": null,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bayas silvestres",
+      "Notas verdes"
+    ],
+    "notasCorazon": [
+      "Coco",
+      "Flor de azahar",
+      "Nenúfar"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Haba tonka",
+      "Almizcle"
+    ],
+    "descripcion": "Fresca y versátil, mezcla bayas silvestres, notas verdes con coco, flor de azahar, nenúfar y un fondo envolvente de vainilla, haba tonka, almizcle.",
+    "imagenUrl": "/perfumes/ISLAND BLISS_CAJA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "yum-yum",
+    "slug": "yum-yum",
+    "nombre": "Yum Yum",
+    "marca": "Armaf",
+    "precio": null,
+    "ml": 50,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Mango",
+      "Pera"
+    ],
+    "notasCorazon": [
+      "Caramelo",
+      "Praliné"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle"
+    ],
+    "descripcion": "Una composición femenina y floral donde mango, pera da paso a caramelo, praliné, sostenida por vainilla, almizcle en el fondo.",
+    "imagenUrl": "/perfumes/YUM YUM CAJA_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "ombre-nomade",
+    "slug": "ombre-nomade",
+    "nombre": "Ombre Nomade",
+    "marca": "Louis Vuitton",
+    "precio": 95000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Acorde de grosella negra",
+      "Frambuesa"
+    ],
+    "notasCorazon": [
+      "Oud",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Madera de guayaco",
+      "Incienso",
+      "Olíbano"
+    ],
+    "descripcion": "Salida de acorde de grosella negra, frambuesa, corazón de oud, rosa y una base de madera de guayaco, incienso, olíbano que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/OMBRE NOMADE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bharara-king",
+    "slug": "bharara-king",
+    "nombre": "Bharara King",
+    "marca": "Bharara Beverly Hills",
+    "precio": null,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Bergamota",
+      "Azafrán"
+    ],
+    "notasCorazon": [
+      "Oud",
+      "Cuero"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Sándalo",
+      "Haba tonka"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con bergamota, azafrán, evoluciona hacia oud, cuero y cierra con un fondo de ámbar, sándalo, haba tonka.",
+    "imagenUrl": "/perfumes/BHARARA KING_CAJA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bharara-viking-cairo",
+    "slug": "bharara-viking-cairo",
+    "nombre": "Bharara Viking Cairo",
+    "marca": "Bharara Beverly Hills",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Mandarina",
+      "Jengibre",
+      "Limón"
+    ],
+    "notasCorazon": [
+      "Fougère",
+      "Haba tonka",
+      "Lavanda",
+      "Violeta",
+      "Magnolia"
+    ],
+    "notasFondo": [
+      "Vetiver",
+      "Ámbar",
+      "Pachulí",
+      "Almizcle"
+    ],
+    "descripcion": "Combina mandarina, jengibre, limón en la salida con fougère, haba tonka, lavanda, violeta, magnolia en el corazón, sobre una base cálida de vetiver, ámbar, pachulí, almizcle.",
+    "imagenUrl": "/perfumes/BHARARA VIKING_CAIRO COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bharara-viking-dubai",
+    "slug": "bharara-viking-dubai",
+    "nombre": "Bharara Viking Dubai",
+    "marca": "Bharara Beverly Hills",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Naranja dulce",
+      "Limón",
+      "Toronja",
+      "Jengibre"
+    ],
+    "notasCorazon": [
+      "Cashmere wood",
+      "Flores blancas",
+      "Magnolia",
+      "Violeta",
+      "Haba tonka"
+    ],
+    "notasFondo": [
+      "Ámbar gris",
+      "Pachulí",
+      "Vetiver",
+      "Almizcle blanco"
+    ],
+    "descripcion": "Fresca y versátil, mezcla bergamota, naranja dulce, limón, toronja, jengibre con cashmere wood, flores blancas, magnolia, violeta, haba tonka y un fondo envolvente de ámbar gris, pachulí, vetiver, almizcle blanco.",
+    "imagenUrl": "/perfumes/BHARARA VIKING_DUBAI COFRE_100Ml.png",
+    "destacado": false
+  },
+  {
+    "id": "bharara-rose",
+    "slug": "bharara-rose",
+    "nombre": "Bharara Rose",
+    "marca": "Bharara Beverly Hills",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Rosa",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Peonía",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ámbar",
+      "Sándalo"
+    ],
+    "descripcion": "Una composición femenina y floral donde rosa, bergamota da paso a peonía, jazmín, sostenida por almizcle, ámbar, sándalo en el fondo.",
+    "imagenUrl": "/perfumes/BHARARA ROSE_COFRE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "bharara-soleil",
+    "slug": "bharara-soleil",
+    "nombre": "Bharara Soleil",
+    "marca": "Bharara Beverly Hills",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Cítricos",
+      "Coco"
+    ],
+    "notasCorazon": [
+      "Flores tropicales"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Salida de cítricos, coco, corazón de flores tropicales y una base de ámbar, almizcle, vainilla que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/BHARARA SOLEIL_COFRE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-amber-rouge",
+    "slug": "orientica-amber-rouge",
+    "nombre": "Orientica Amber Rouge",
+    "marca": "Orientica",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Azafrán",
+      "Jazmín"
+    ],
+    "notasCorazon": [
+      "Ambarwood",
+      "Ámbar gris"
+    ],
+    "notasFondo": [
+      "Cedro",
+      "Resina de abeto"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con azafrán, jazmín, evoluciona hacia ambarwood, ámbar gris y cierra con un fondo de cedro, resina de abeto.",
+    "imagenUrl": "/perfumes/ORIENTICA AMBER_ROUGE COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-royal-amber",
+    "slug": "orientica-royal-amber",
+    "nombre": "Orientica Royal Amber",
+    "marca": "Orientica",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Azafrán",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Ámbar"
+    ],
+    "notasFondo": [
+      "Oud",
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Combina azafrán, bergamota en la salida con rosa, ámbar en el corazón, sobre una base cálida de oud, almizcle, sándalo.",
+    "imagenUrl": "/perfumes/ORIENTICA ROYAL_AMBER COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-royal-blue",
+    "slug": "orientica-royal-blue",
+    "nombre": "Orientica Royal Blue",
+    "marca": "Orientica",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Notas marinas"
+    ],
+    "notasCorazon": [
+      "Lavanda",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle",
+      "Maderas"
+    ],
+    "descripcion": "Fresca y versátil, mezcla bergamota, notas marinas con lavanda, jazmín y un fondo envolvente de ámbar, almizcle, maderas.",
+    "imagenUrl": "/perfumes/ORIENTICA ROYAL_BLUE COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-azure-fantasy",
+    "slug": "orientica-azure-fantasy",
+    "nombre": "Orientica Azure Fantasy",
+    "marca": "Orientica",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Notas marinas"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Ylang ylang"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ámbar",
+      "Maderas"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde bergamota, notas marinas da paso a jazmín, ylang ylang, sostenida por almizcle, ámbar, maderas en el fondo.",
+    "imagenUrl": "/perfumes/ORIENTICA AZURE_FANTASY COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-amber-noir",
+    "slug": "orientica-amber-noir",
+    "nombre": "Orientica Amber Noir",
+    "marca": "Orientica",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Especias",
+      "Rosa"
+    ],
+    "notasCorazon": [
+      "Oud",
+      "Pachulí"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Maderas"
+    ],
+    "descripcion": "Salida de especias, rosa, corazón de oud, pachulí y una base de vainilla, almizcle, maderas que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ORIENTICA AMBER_NOIR COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-dania",
+    "slug": "orientica-dania",
+    "nombre": "Orientica Dania",
+    "marca": "Orientica",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Rosa",
+      "Frutas"
+    ],
+    "notasCorazon": [
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con rosa, frutas, evoluciona hacia jazmín y cierra con un fondo de ámbar, almizcle.",
+    "imagenUrl": "/perfumes/ORIENTICA DANIA_COFRE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-velvet-gold",
+    "slug": "orientica-velvet-gold",
+    "nombre": "Orientica Velvet Gold",
+    "marca": "Orientica",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Azafrán",
+      "Miel"
+    ],
+    "notasCorazon": [
+      "Ámbar",
+      "Oud"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle"
+    ],
+    "descripcion": "Combina azafrán, miel en la salida con ámbar, oud en el corazón, sobre una base cálida de vainilla, almizcle.",
+    "imagenUrl": "/perfumes/ORIENTICA_VELVET GOLD_COFRE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-oud-saffron",
+    "slug": "orientica-oud-saffron",
+    "nombre": "Orientica Oud Saffron",
+    "marca": "Orientica",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Azafrán",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Oud",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Fresca y versátil, mezcla azafrán, bergamota con oud, rosa y un fondo envolvente de ámbar, almizcle, sándalo.",
+    "imagenUrl": "/perfumes/ORIENTICA OUD_SAFRON COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lattafa-oud-for-glory",
+    "slug": "lattafa-oud-for-glory",
+    "nombre": "Lattafa Oud For Glory",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Azafrán",
+      "Nuez moscada",
+      "Lavanda"
+    ],
+    "notasCorazon": [
+      "Oud (agar)",
+      "Pachulí"
+    ],
+    "notasFondo": [
+      "Oud (agar)",
+      "Pachulí",
+      "Almizcle"
+    ],
+    "descripcion": "Salida de azafrán, nuez moscada, lavanda, corazón de oud (agar), pachulí y una base de oud (agar), pachulí, almizcle que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/LATTAFA OUD_FOR GLORY CAJA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lattafa-amethyst",
+    "slug": "lattafa-amethyst",
+    "nombre": "Lattafa Amethyst",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Pimienta rosa",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Rosa turca",
+      "Rosa búlgara",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Oud (agar)",
+      "Ámbar",
+      "Vainilla"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con pimienta rosa, bergamota, evoluciona hacia rosa turca, rosa búlgara, jazmín y cierra con un fondo de oud (agar), ámbar, vainilla.",
+    "imagenUrl": "/perfumes/LATAFFA_AMETHYS COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lattafa-honor-and-glory",
+    "slug": "lattafa-honor-and-glory",
+    "nombre": "Lattafa Honor & Glory",
+    "marca": "Lattafa",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Piña",
+      "Crème brûlée"
+    ],
+    "notasCorazon": [
+      "Canela",
+      "Cúrcuma",
+      "Pimienta negra",
+      "Benjuí"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Sándalo",
+      "Cashmeran",
+      "Musgo"
+    ],
+    "descripcion": "Combina piña, crème brûlée en la salida con canela, cúrcuma, pimienta negra, benjuí en el corazón, sobre una base cálida de vainilla, sándalo, cashmeran, musgo.",
+    "imagenUrl": "/perfumes/LATTAFA HONOR_Y GLORY COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lattafa-sublime",
+    "slug": "lattafa-sublime",
+    "nombre": "Lattafa Sublime",
+    "marca": "Lattafa",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Manzana",
+      "Lichi",
+      "Rosa"
+    ],
+    "notasCorazon": [
+      "Ciruela",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Musgo",
+      "Pachulí"
+    ],
+    "descripcion": "Fresca y versátil, mezcla manzana, lichi, rosa con ciruela, jazmín y un fondo envolvente de vainilla, musgo, pachulí.",
+    "imagenUrl": "/perfumes/LATTAFA_SUBLIME COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lattafa-noble-blush",
+    "slug": "lattafa-noble-blush",
+    "nombre": "Lattafa Noble Blush",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Rosa con leche"
+    ],
+    "notasCorazon": [
+      "Merengue",
+      "Almendra"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Una composición femenina y floral donde rosa con leche da paso a merengue, almendra, sostenida por vainilla, almizcle, sándalo en el fondo.",
+    "imagenUrl": "/perfumes/LATTAFA NOBLE_BLUSH COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "yara-tradicional-dama",
+    "slug": "yara-tradicional-dama",
+    "nombre": "Yara Tradicional Dama",
+    "marca": "Lattafa",
+    "precio": 95000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Mandarina",
+      "Pera"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Flor de azahar"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Sándalo"
+    ],
+    "descripcion": "Salida de mandarina, pera, corazón de rosa, flor de azahar y una base de vainilla, almizcle, sándalo que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/YARA_TRADICIONAL_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "yara-moi-dama",
+    "slug": "yara-moi-dama",
+    "nombre": "Yara Moi Dama",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Coco",
+      "Frutas"
+    ],
+    "notasCorazon": [
+      "Flores blancas"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Caramelo",
+      "Almizcle"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con coco, frutas, evoluciona hacia flores blancas y cierra con un fondo de vainilla, caramelo, almizcle.",
+    "imagenUrl": "/perfumes/YARA MOI DAMA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "yara-candy-dama",
+    "slug": "yara-candy-dama",
+    "nombre": "Yara Candy Dama",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Frutos dulces",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Flores blancas"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Caramelo",
+      "Almizcle"
+    ],
+    "descripcion": "Combina frutos dulces, bergamota en la salida con flores blancas en el corazón, sobre una base cálida de vainilla, caramelo, almizcle.",
+    "imagenUrl": "/perfumes/YARA CANDY_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "yara-tous-dama",
+    "slug": "yara-tous-dama",
+    "nombre": "Yara Tous Dama",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Mango",
+      "Coco",
+      "Maracuyá"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Heliotropo",
+      "Flor de azahar"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Cashmeran"
+    ],
+    "descripcion": "Fresca y femenina, mezcla mango, coco, maracuyá con jazmín, heliotropo, flor de azahar y un fondo envolvente de vainilla, almizcle, cashmeran.",
+    "imagenUrl": "/perfumes/YARA TOUS_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "yara-elixir-dama",
+    "slug": "yara-elixir-dama",
+    "nombre": "Yara Elixir Dama",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Fresa",
+      "Grosella negra"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Flor de azahar"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Caramelo",
+      "Almizcle",
+      "Ámbar"
+    ],
+    "descripcion": "Una composición femenina y floral donde fresa, grosella negra da paso a jazmín, flor de azahar, sostenida por vainilla, caramelo, almizcle, ámbar en el fondo.",
+    "imagenUrl": "/perfumes/YARA ELIXIR_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "asad-bourbon-men",
+    "slug": "asad-bourbon-men",
+    "nombre": "Asad Bourbon Men",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Lavanda",
+      "Ciruela mirabel",
+      "Pimienta rosa"
+    ],
+    "notasCorazon": [
+      "Cacao",
+      "Nuez moscada",
+      "Davana"
+    ],
+    "notasFondo": [
+      "Vainilla bourbon",
+      "Ámbar",
+      "Vetiver"
+    ],
+    "descripcion": "Salida de lavanda, ciruela mirabel, pimienta rosa, corazón de cacao, nuez moscada, davana y una base de vainilla bourbon, ámbar, vetiver que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ASAD BOURBON_MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "asad-elixir-men",
+    "slug": "asad-elixir-men",
+    "nombre": "Asad Elixir Men",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Pimienta rosa",
+      "Azafrán",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Tabaco",
+      "Cedro",
+      "Vainilla"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Olíbano",
+      "Cashmeran",
+      "Ámbar seco"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con pimienta rosa, azafrán, toronja, evoluciona hacia tabaco, cedro, vainilla y cierra con un fondo de pachulí, olíbano, cashmeran, ámbar seco.",
+    "imagenUrl": "/perfumes/ASAD ELIXIR MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "asad-tradicional-men",
+    "slug": "asad-tradicional-men",
+    "nombre": "Asad Tradicional Men",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Pimienta negra",
+      "Tabaco",
+      "Piña"
+    ],
+    "notasCorazon": [
+      "Pachulí",
+      "Café",
+      "Iris"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Ámbar",
+      "Madera seca",
+      "Benjuí",
+      "Labdanum"
+    ],
+    "descripcion": "Combina pimienta negra, tabaco, piña en la salida con pachulí, café, iris en el corazón, sobre una base cálida de vainilla, ámbar, madera seca, benjuí, labdanum.",
+    "imagenUrl": "/perfumes/ASAD_TRADICIONAL MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "asad-zanzibar-men",
+    "slug": "asad-zanzibar-men",
+    "nombre": "Asad Zanzibar Men",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Lavanda",
+      "Pimienta negra"
+    ],
+    "notasCorazon": [
+      "Agua de coco",
+      "Iris",
+      "Sal"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Incienso"
+    ],
+    "descripcion": "Fresca y masculina, mezcla lavanda, pimienta negra con agua de coco, iris, sal y un fondo envolvente de vainilla, incienso.",
+    "imagenUrl": "/perfumes/ASAD ZANZIBAR_MEN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "khamrah-tradicional",
+    "slug": "khamrah-tradicional",
+    "nombre": "Khamrah Tradicional",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Canela",
+      "Nuez moscada",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Dátiles",
+      "Praliné",
+      "Tuberosa"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Haba tonka",
+      "Ambarwood",
+      "Mirra",
+      "Benjuí"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde canela, nuez moscada, bergamota da paso a dátiles, praliné, tuberosa, sostenida por vainilla, haba tonka, ambarwood, mirra, benjuí en el fondo.",
+    "imagenUrl": "/perfumes/KHAMRAH_TRADICIONAL CAJA_(1OOML).png",
+    "destacado": false
+  },
+  {
+    "id": "khamrah-qhawa",
+    "slug": "khamrah-qhawa",
+    "nombre": "Khamrah Qhawa",
+    "marca": "Lattafa",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Canela",
+      "Cardamomo",
+      "Jengibre"
+    ],
+    "notasCorazon": [
+      "Praliné",
+      "Frutas confitadas",
+      "Flores blancas"
+    ],
+    "notasFondo": [
+      "Café",
+      "Vainilla",
+      "Haba tonka",
+      "Benjuí",
+      "Almizcle"
+    ],
+    "descripcion": "Salida de canela, cardamomo, jengibre, corazón de praliné, frutas confitadas, flores blancas y una base de café, vainilla, haba tonka, benjuí, almizcle que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/KHAMRAH_QHAWA COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "khamrah-dukhan",
+    "slug": "khamrah-dukhan",
+    "nombre": "Khamrah Dukhan",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Mandarina",
+      "Pimienta gorda",
+      "Especias ahumadas"
+    ],
+    "notasCorazon": [
+      "Jara",
+      "Flor de naranjo",
+      "Incienso",
+      "Pachulí"
+    ],
+    "notasFondo": [
+      "Tabaco",
+      "Ámbar",
+      "Haba tonka",
+      "Benjuí",
+      "Praliné"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con mandarina, pimienta gorda, especias ahumadas, evoluciona hacia jara, flor de naranjo, incienso, pachulí y cierra con un fondo de tabaco, ámbar, haba tonka, benjuí, praliné.",
+    "imagenUrl": "/perfumes/KHAMRAH_DUKHAN CAJA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "art-of-universe",
+    "slug": "art-of-universe",
+    "nombre": "Art of Universe",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Mandarina",
+      "Jengibre",
+      "Bergamota",
+      "Menta"
+    ],
+    "notasCorazon": [
+      "Pera",
+      "Flor de azahar"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ámbar",
+      "Cedro"
+    ],
+    "descripcion": "Combina mandarina, jengibre, bergamota, menta en la salida con pera, flor de azahar en el corazón, sobre una base cálida de almizcle, ámbar, cedro.",
+    "imagenUrl": "/perfumes/ART OF UNIVERSE_COFRE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "her-confession",
+    "slug": "her-confession",
+    "nombre": "Her Confession",
+    "marca": "Lattafa",
+    "precio": 95000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Canela",
+      "Notas místicas"
+    ],
+    "notasCorazon": [
+      "Tuberosa",
+      "Jazmín",
+      "Incienso"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Haba tonka"
+    ],
+    "descripcion": "Fresca y femenina, mezcla canela, notas místicas con tuberosa, jazmín, incienso y un fondo envolvente de vainilla, almizcle, haba tonka.",
+    "imagenUrl": "/perfumes/HER CONFESSION_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "mayar-natural",
+    "slug": "mayar-natural",
+    "nombre": "Mayar Natural",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Cítricos",
+      "Notas florales"
+    ],
+    "notasCorazon": [
+      "Flores blancas"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla clara"
+    ],
+    "descripcion": "Una composición femenina y floral donde cítricos, notas florales da paso a flores blancas, sostenida por almizcle, vainilla clara en el fondo.",
+    "imagenUrl": "/perfumes/MAYAR NATURAL_CAJA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "mayar-tradicional",
+    "slug": "mayar-tradicional",
+    "nombre": "Mayar Tradicional",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Lichi",
+      "Frambuesa",
+      "Hoja de violeta"
+    ],
+    "notasCorazon": [
+      "Rosa blanca",
+      "Peonía",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla"
+    ],
+    "descripcion": "Salida de lichi, frambuesa, hoja de violeta, corazón de rosa blanca, peonía, jazmín y una base de almizcle, vainilla que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/MAYAR_TRADICIONAL_CAJA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "city-of-dreams-new-york",
+    "slug": "city-of-dreams-new-york",
+    "nombre": "City of Dreams New York",
+    "marca": "Lattafa",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Cereza",
+      "Nuez moscada",
+      "Pimienta negra"
+    ],
+    "notasCorazon": [
+      "Coñac",
+      "Mimosa",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Labdanum",
+      "Cedro",
+      "Musgo de roble",
+      "Pachulí"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con cereza, nuez moscada, pimienta negra, evoluciona hacia coñac, mimosa, rosa y cierra con un fondo de labdanum, cedro, musgo de roble, pachulí.",
+    "imagenUrl": "/perfumes/CITY OF DREAMS_NEW YORK (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "fakhar-rose",
+    "slug": "fakhar-rose",
+    "nombre": "Fakhar Rose",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Frutas",
+      "Lirio",
+      "Granada"
+    ],
+    "notasCorazon": [
+      "Tuberosa",
+      "Jazmín",
+      "Gardenia",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle blanco",
+      "Sándalo",
+      "Ambroxan"
+    ],
+    "descripcion": "Combina frutas, lirio, granada en la salida con tuberosa, jazmín, gardenia, rosa en el corazón, sobre una base cálida de vainilla, almizcle blanco, sándalo, ambroxan.",
+    "imagenUrl": "/perfumes/FAKHAR ROSE_COFRE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "fakhar-black",
+    "slug": "fakhar-black",
+    "nombre": "Fakhar Black",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Pimienta negra",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Oud",
+      "Especias"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Almizcle",
+      "Maderas"
+    ],
+    "descripcion": "Fresca y versátil, mezcla pimienta negra, bergamota con oud, especias y un fondo envolvente de ámbar, almizcle, maderas.",
+    "imagenUrl": "/perfumes/FAKHAR BLACK_COFRE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "fakhar-gold",
+    "slug": "fakhar-gold",
+    "nombre": "Fakhar Gold",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Durazno",
+      "Pera",
+      "Naranja"
+    ],
+    "notasCorazon": [
+      "Flor de azahar",
+      "Rosa",
+      "Jazmín sambac"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Pachulí",
+      "Sándalo",
+      "Almizcle"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde durazno, pera, naranja da paso a flor de azahar, rosa, jazmín sambac, sostenida por vainilla, pachulí, sándalo, almizcle en el fondo.",
+    "imagenUrl": "/perfumes/FAKHAR GOLD_COFRE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "eclaire-pistache",
+    "slug": "eclaire-pistache",
+    "nombre": "Eclaire Pistache",
+    "marca": "Lattafa",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Pistacho",
+      "Crema de pistacho"
+    ],
+    "notasCorazon": [
+      "Crema batida",
+      "Cacao",
+      "Coco"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Leche",
+      "Almizcle"
+    ],
+    "descripcion": "Salida de pistacho, crema de pistacho, corazón de crema batida, cacao, coco y una base de vainilla, leche, almizcle que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ECLAIRE_PISTACHE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "eclaire-tradicional",
+    "slug": "eclaire-tradicional",
+    "nombre": "Eclaire Tradicional",
+    "marca": "Lattafa",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Caramelo",
+      "Leche",
+      "Azúcar"
+    ],
+    "notasCorazon": [
+      "Flores blancas",
+      "Miel"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Praliné",
+      "Almizcle"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con caramelo, leche, azúcar, evoluciona hacia flores blancas, miel y cierra con un fondo de vainilla, praliné, almizcle.",
+    "imagenUrl": "/perfumes/ECLAIRE_TRADICIONAL_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "eclaire-banofi-dama",
+    "slug": "eclaire-banofi-dama",
+    "nombre": "Eclaire Banofi Dama",
+    "marca": "Lattafa",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Plátano",
+      "Toffee"
+    ],
+    "notasCorazon": [
+      "Caramelo",
+      "Crema"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Haba tonka"
+    ],
+    "descripcion": "Combina plátano, toffee en la salida con caramelo, crema en el corazón, sobre una base cálida de vainilla, almizcle, haba tonka.",
+    "imagenUrl": "/perfumes/ECLAIRE BANOFI_DAMA (100 ML).png",
+    "destacado": false
+  },
+  {
+    "id": "atheeri",
+    "slug": "atheeri",
+    "nombre": "Atheeri",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Flor de la pasión",
+      "Gota de rocío"
+    ],
+    "notasCorazon": [
+      "Orquídea",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Ambarwood"
+    ],
+    "descripcion": "Fresca y femenina, mezcla flor de la pasión, gota de rocío con orquídea, jazmín y un fondo envolvente de vainilla, ambarwood.",
+    "imagenUrl": "/perfumes/ATHEERI COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "victoria-de-lattafa",
+    "slug": "victoria-de-lattafa",
+    "nombre": "Victoria de Lattafa",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Tarta de limón merengada"
+    ],
+    "notasCorazon": [
+      "Neroli"
+    ],
+    "notasFondo": [
+      "Vainilla"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde tarta de limón merengada da paso a neroli, sostenida por vainilla en el fondo.",
+    "imagenUrl": "/perfumes/VICTORIA DE_LATAFFA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "mayar-cherry",
+    "slug": "mayar-cherry",
+    "nombre": "Mayar Cherry",
+    "marca": "Lattafa",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Fresa",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Mermelada de cereza",
+      "Cacao"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Ámbar",
+      "Pachulí"
+    ],
+    "descripcion": "Salida de fresa, bergamota, corazón de mermelada de cereza, cacao y una base de vainilla, ámbar, pachulí que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/MAYAR CHERRY_LATA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "haya",
+    "slug": "haya",
+    "nombre": "Haya",
+    "marca": "Lattafa",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Champaña",
+      "Fresa",
+      "Rosa",
+      "Mandarina",
+      "Naranja sanguina"
+    ],
+    "notasCorazon": [
+      "Gardenia",
+      "Jazmín",
+      "Vainilla orquídea"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Sándalo",
+      "Castaña"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con champaña, fresa, rosa, mandarina, naranja sanguina, evoluciona hacia gardenia, jazmín, vainilla orquídea y cierra con un fondo de ámbar, sándalo, castaña.",
+    "imagenUrl": "/perfumes/HAYA COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "whipped-pleasure",
+    "slug": "whipped-pleasure",
+    "nombre": "Whipped Pleasure",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Fresa",
+      "Frambuesa"
+    ],
+    "notasCorazon": [
+      "Malvavisco"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Crema batida",
+      "Almizcle"
+    ],
+    "descripcion": "Combina fresa, frambuesa en la salida con malvavisco en el corazón, sobre una base cálida de vainilla, crema batida, almizcle.",
+    "imagenUrl": "/perfumes/WHIPPED_PLEASURE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "cookie-grave",
+    "slug": "cookie-grave",
+    "nombre": "Cookie Grave",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Cacao",
+      "Mantequilla"
+    ],
+    "notasCorazon": [
+      "Galleta",
+      "Leche",
+      "Azúcar"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Crema batida",
+      "Sándalo"
+    ],
+    "descripcion": "Fresca y versátil, mezcla cacao, mantequilla con galleta, leche, azúcar y un fondo envolvente de vainilla, crema batida, sándalo.",
+    "imagenUrl": "/perfumes/COOKIE GRAVE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "berry-on-top",
+    "slug": "berry-on-top",
+    "nombre": "Berry on Top",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Fresa",
+      "Frambuesa"
+    ],
+    "notasCorazon": [
+      "Malvavisco"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Crema batida",
+      "Almizcle"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde fresa, frambuesa da paso a malvavisco, sostenida por vainilla, crema batida, almizcle en el fondo.",
+    "imagenUrl": "/perfumes/BERRY ON TOP_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "choco-overdose",
+    "slug": "choco-overdose",
+    "nombre": "Choco Overdose",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Fudge de chocolate"
+    ],
+    "notasCorazon": [
+      "Cacao",
+      "Cupcake"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Caramelo",
+      "Benjuí"
+    ],
+    "descripcion": "Salida de fudge de chocolate, corazón de cacao, cupcake y una base de vainilla, caramelo, benjuí que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/CHOCO_OVERDOSE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "vanilla-freak",
+    "slug": "vanilla-freak",
+    "nombre": "Vanilla Freak",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Vainilla",
+      "Caramelo"
+    ],
+    "notasCorazon": [
+      "Crema",
+      "Haba tonka"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Sándalo",
+      "Ámbar"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con vainilla, caramelo, evoluciona hacia crema, haba tonka y cierra con un fondo de almizcle, sándalo, ámbar.",
+    "imagenUrl": "/perfumes/VANILLA FREAK_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "tous-love-me-the-emerald-elixir",
+    "slug": "tous-love-me-the-emerald-elixir",
+    "nombre": "Tous Love Me The Emerald Elixir",
+    "marca": "Tous",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pera",
+      "Naranja dulce",
+      "Toronja"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Madreselva",
+      "Violeta"
+    ],
+    "notasFondo": [
+      "Pachulí",
+      "Vainilla",
+      "Almizcle"
+    ],
+    "descripcion": "Combina pera, naranja dulce, toronja en la salida con jazmín, madreselva, violeta en el corazón, sobre una base cálida de pachulí, vainilla, almizcle.",
+    "imagenUrl": "/perfumes/TOUS LOVE ME_THE EMERALD_ELIXIR (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "tous-love-me-the-onix-parfum",
+    "slug": "tous-love-me-the-onix-parfum",
+    "nombre": "Tous Love Me The Onix Parfum",
+    "marca": "Tous",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Avellana",
+      "Toronja",
+      "Peonía"
+    ],
+    "notasCorazon": [
+      "Heliotropo",
+      "Orquídea negra"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Sándalo",
+      "Vetiver"
+    ],
+    "descripcion": "Fresca y femenina, mezcla avellana, toronja, peonía con heliotropo, orquídea negra y un fondo envolvente de vainilla, sándalo, vetiver.",
+    "imagenUrl": "/perfumes/TOUS LOVE ME_THE ONIX PARFUM_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "tous-love-me-eau-de-parfum",
+    "slug": "tous-love-me-eau-de-parfum",
+    "nombre": "Tous Love Me Eau de Parfum",
+    "marca": "Tous",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Manzana",
+      "Pera"
+    ],
+    "notasCorazon": [
+      "Jazmín",
+      "Iris"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla",
+      "Sándalo"
+    ],
+    "descripcion": "Una composición femenina y floral donde manzana, pera da paso a jazmín, iris, sostenida por almizcle, vainilla, sándalo en el fondo.",
+    "imagenUrl": "/perfumes/TOUS LOVE ME_EAU DE PARFUM_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "game-of-spades-wildcard",
+    "slug": "game-of-spades-wildcard",
+    "nombre": "Game of Spades Wildcard",
+    "marca": "Jo Milano Paris",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Flores",
+      "Bergamota",
+      "Cilantro"
+    ],
+    "notasCorazon": [
+      "Manzana",
+      "Ambroxan",
+      "Vainilla"
+    ],
+    "notasFondo": [
+      "Notas amaderadas",
+      "Haba tonka",
+      "Ámbar gris"
+    ],
+    "descripcion": "Salida de flores, bergamota, cilantro, corazón de manzana, ambroxan, vainilla y una base de notas amaderadas, haba tonka, ámbar gris que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/GAME OF SPADES_WILDCARD CAJA_(1OOML).png",
+    "destacado": false
+  },
+  {
+    "id": "game-of-spades-moon",
+    "slug": "game-of-spades-moon",
+    "nombre": "Game of Spades Moon",
+    "marca": "Jo Milano Paris",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Lavanda",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Iris",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ámbar",
+      "Maderas"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con lavanda, bergamota, evoluciona hacia iris, jazmín y cierra con un fondo de almizcle, ámbar, maderas.",
+    "imagenUrl": "/perfumes/GAME OF SPADES_MOON CAJA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "game-of-spades-ruby",
+    "slug": "game-of-spades-ruby",
+    "nombre": "Game of Spades Ruby",
+    "marca": "Jo Milano Paris",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Azafrán"
+    ],
+    "notasCorazon": [
+      "Geranio",
+      "Magnolia",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Notas amaderadas",
+      "Ámbar",
+      "Civeta"
+    ],
+    "descripcion": "Combina bergamota, azafrán en la salida con geranio, magnolia, rosa en el corazón, sobre una base cálida de notas amaderadas, ámbar, civeta.",
+    "imagenUrl": "/perfumes/GAME OF SPADES_RUBY (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "game-of-spades-royale",
+    "slug": "game-of-spades-royale",
+    "nombre": "Game of Spades Royale",
+    "marca": "Jo Milano Paris",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Avellana",
+      "Cacao"
+    ],
+    "notasCorazon": [
+      "Jazmín sambac",
+      "Cedro"
+    ],
+    "notasFondo": [
+      "Caramelo",
+      "Ambroxan",
+      "Musgo"
+    ],
+    "descripcion": "Fresca y versátil, mezcla avellana, cacao con jazmín sambac, cedro y un fondo envolvente de caramelo, ambroxan, musgo.",
+    "imagenUrl": "/perfumes/GAME OF SPADES_ROYALE (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "al-haramain-gold",
+    "slug": "al-haramain-gold",
+    "nombre": "Al Haramain Gold",
+    "marca": "Al Haramain",
+    "precio": null,
+    "ml": 120,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Enebro",
+      "Notas herbales",
+      "Notas frutales"
+    ],
+    "notasCorazon": [
+      "Notas florales",
+      "Oud"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Sándalo",
+      "Almizcle",
+      "Maderas"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde enebro, notas herbales, notas frutales da paso a notas florales, oud, sostenida por vainilla, sándalo, almizcle, maderas en el fondo.",
+    "imagenUrl": "/perfumes/ALHARAMAIN_GOLD CAJA (120ML).png",
+    "destacado": false
+  },
+  {
+    "id": "al-haramain-dubai-night",
+    "slug": "al-haramain-dubai-night",
+    "nombre": "Al Haramain Dubai Night",
+    "marca": "Al Haramain",
+    "precio": 130000,
+    "ml": 120,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Azafrán",
+      "Bergamota",
+      "Elemí"
+    ],
+    "notasCorazon": [
+      "Oud (agar)",
+      "Rosa búlgara",
+      "Lirio de los valles"
+    ],
+    "notasFondo": [
+      "Haba tonka",
+      "Ámbar",
+      "Almizcle blanco",
+      "Musgo de roble"
+    ],
+    "descripcion": "Salida de azafrán, bergamota, elemí, corazón de oud (agar), rosa búlgara, lirio de los valles y una base de haba tonka, ámbar, almizcle blanco, musgo de roble que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ALHARAMAIN_DUBAI NIGHT_COFRE (120ML).png",
+    "destacado": false
+  },
+  {
+    "id": "al-haramain-aqua-dubia",
+    "slug": "al-haramain-aqua-dubia",
+    "nombre": "Al Haramain Aqua Dubia",
+    "marca": "Al Haramain",
+    "precio": null,
+    "ml": 120,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Notas verdes",
+      "Bergamota",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Melón",
+      "Ámbar",
+      "Grosella negra",
+      "Piña"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Petitgrain",
+      "Galbanum",
+      "Vainilla"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con notas verdes, bergamota, mandarina, evoluciona hacia melón, ámbar, grosella negra, piña y cierra con un fondo de almizcle, petitgrain, galbanum, vainilla.",
+    "imagenUrl": "/perfumes/ALHARAMIN AQUA_DUBIA CAJA_(120ML).png",
+    "destacado": false
+  },
+  {
+    "id": "al-haramain-carbon-edition",
+    "slug": "al-haramain-carbon-edition",
+    "nombre": "Al Haramain Carbon Edition",
+    "marca": "Al Haramain",
+    "precio": 95000,
+    "ml": 120,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Lavanda",
+      "Bergamota",
+      "Romero"
+    ],
+    "notasCorazon": [
+      "Geranio",
+      "Notas marinas",
+      "Salvia"
+    ],
+    "notasFondo": [
+      "Vetiver",
+      "Ámbar",
+      "Musgo",
+      "Cedro"
+    ],
+    "descripcion": "Combina lavanda, bergamota, romero en la salida con geranio, notas marinas, salvia en el corazón, sobre una base cálida de vetiver, ámbar, musgo, cedro.",
+    "imagenUrl": "/perfumes/ALHARAMIN_CARBON EDITION_CAJA (120ML).png",
+    "destacado": false
+  },
+  {
+    "id": "emeer",
+    "slug": "emeer",
+    "nombre": "Emeer",
+    "marca": "Lattafa",
+    "precio": null,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Limón",
+      "Bergamota",
+      "Salvia esclarea",
+      "Bayas de enebro"
+    ],
+    "notasCorazon": [
+      "Té blanco",
+      "Sándalo",
+      "Cardamomo",
+      "Olíbano"
+    ],
+    "notasFondo": [
+      "Ámbar gris",
+      "Cedro",
+      "Cashmeran",
+      "Pachulí"
+    ],
+    "descripcion": "Fresca y versátil, mezcla limón, bergamota, salvia esclarea, bayas de enebro con té blanco, sándalo, cardamomo, olíbano y un fondo envolvente de ámbar gris, cedro, cashmeran, pachulí.",
+    "imagenUrl": "/perfumes/EMEER CAJA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "the-kingdom-men",
+    "slug": "the-kingdom-men",
+    "nombre": "The Kingdom Men",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Menta",
+      "Lavanda",
+      "Salvia"
+    ],
+    "notasCorazon": [
+      "Vainilla",
+      "Tabaco",
+      "Flor de azahar"
+    ],
+    "notasFondo": [
+      "Haba tonka",
+      "Benjuí",
+      "Labdanum"
+    ],
+    "descripcion": "Una composición masculina y amaderada donde menta, lavanda, salvia da paso a vainilla, tabaco, flor de azahar, sostenida por haba tonka, benjuí, labdanum en el fondo.",
+    "imagenUrl": "/perfumes/THE KINGDOM_MEN (1OOML).png",
+    "destacado": false
+  },
+  {
+    "id": "the-kingdom-dama",
+    "slug": "the-kingdom-dama",
+    "nombre": "The Kingdom Dama",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Pera",
+      "Peonía",
+      "Grosella negra"
+    ],
+    "notasCorazon": [
+      "Praliné",
+      "Haba tonka",
+      "Jazmín"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Almizcle",
+      "Sándalo",
+      "Ámbar"
+    ],
+    "descripcion": "Salida de pera, peonía, grosella negra, corazón de praliné, haba tonka, jazmín y una base de vainilla, almizcle, sándalo, ámbar que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/THE KINGDOM_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "musaman-white",
+    "slug": "musaman-white",
+    "nombre": "Musaman White",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Especias",
+      "Bergamota",
+      "Naranja"
+    ],
+    "notasCorazon": [
+      "Coco",
+      "Ylang ylang",
+      "Ambroxan"
+    ],
+    "notasFondo": [
+      "Sándalo",
+      "Almizcle",
+      "Benjuí"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con especias, bergamota, naranja, evoluciona hacia coco, ylang ylang, ambroxan y cierra con un fondo de sándalo, almizcle, benjuí.",
+    "imagenUrl": "/perfumes/MUSAMAN WHITE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "layton-men",
+    "slug": "layton-men",
+    "nombre": "Layton Men",
+    "marca": "Parfums de Marly",
+    "precio": 95000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Cardamomo",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Especias"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Sándalo",
+      "Madera de guayaco"
+    ],
+    "descripcion": "Combina manzana, cardamomo, mandarina en la salida con especias en el corazón, sobre una base cálida de vainilla, sándalo, madera de guayaco.",
+    "imagenUrl": "/perfumes/LAYTON MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lionheart-men",
+    "slug": "lionheart-men",
+    "nombre": "Lionheart Men",
+    "marca": "Armaf",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Menta",
+      "Lavanda"
+    ],
+    "notasCorazon": [
+      "Vainilla",
+      "Benjuí"
+    ],
+    "notasFondo": [
+      "Miel",
+      "Haba tonka",
+      "Tabaco"
+    ],
+    "descripcion": "Fresca y masculina, mezcla menta, lavanda con vainilla, benjuí y un fondo envolvente de miel, haba tonka, tabaco.",
+    "imagenUrl": "/perfumes/LIONHEART MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "lionheart-dama",
+    "slug": "lionheart-dama",
+    "nombre": "Lionheart Dama",
+    "marca": "Armaf",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Vainilla",
+      "Lavanda"
+    ],
+    "notasCorazon": [
+      "Cacao",
+      "Jengibre"
+    ],
+    "notasFondo": [
+      "Vainilla absoluta"
+    ],
+    "descripcion": "Una composición femenina y floral donde vainilla, lavanda da paso a cacao, jengibre, sostenida por vainilla absoluta en el fondo.",
+    "imagenUrl": "/perfumes/LIONHEART_DAMA (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "orientica-royal-collection-noble",
+    "slug": "orientica-royal-collection-noble",
+    "nombre": "Orientica Royal Collection Noble",
+    "marca": "Orientica",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Jengibre",
+      "Pera",
+      "Mandarina"
+    ],
+    "notasCorazon": [
+      "Flor de azahar",
+      "Jazmín",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Bálsamo del Perú",
+      "Sándalo",
+      "Ámbar gris"
+    ],
+    "descripcion": "Salida de jengibre, pera, mandarina, corazón de flor de azahar, jazmín, rosa y una base de bálsamo del perú, sándalo, ámbar gris que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/ORIENTICA ROYAL_COLLECTION_NOBLE COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "delina",
+    "slug": "delina",
+    "nombre": "Delina",
+    "marca": "Parfums de Marly",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Ruibarbo",
+      "Bergamota",
+      "Lichi"
+    ],
+    "notasCorazon": [
+      "Rosa turca",
+      "Peonía",
+      "Muguet"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Vainilla",
+      "Cedro"
+    ],
+    "descripcion": "Una fragancia femenina y floral que abre con ruibarbo, bergamota, lichi, evoluciona hacia rosa turca, peonía, muguet y cierra con un fondo de almizcle, vainilla, cedro.",
+    "imagenUrl": "/perfumes/DELINA CAJA_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "baccarat-rouge",
+    "slug": "baccarat-rouge",
+    "nombre": "Baccarat Rouge",
+    "marca": "Maison Francis Kurkdjian",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Azafrán",
+      "Jazmín"
+    ],
+    "notasCorazon": [
+      "Ambarwood",
+      "Ámbar gris"
+    ],
+    "notasFondo": [
+      "Resina de abeto",
+      "Cedro"
+    ],
+    "descripcion": "Combina azafrán, jazmín en la salida con ambarwood, ámbar gris en el corazón, sobre una base cálida de resina de abeto, cedro.",
+    "imagenUrl": "/perfumes/BACCARAT_ROUGE (100ML).png",
+    "destacado": true
+  },
+  {
+    "id": "bon-bon",
+    "slug": "bon-bon",
+    "nombre": "Bon Bon",
+    "marca": "Viktor & Rolf",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "mujer",
+    "notasSalida": [
+      "Mandarina",
+      "Flor de azahar",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Caramelo",
+      "Jazmín",
+      "Albaricoque"
+    ],
+    "notasFondo": [
+      "Praliné",
+      "Madera de guayaco",
+      "Haba tonka",
+      "Vainilla",
+      "Sándalo"
+    ],
+    "descripcion": "Fresca y femenina, mezcla mandarina, flor de azahar, bergamota con caramelo, jazmín, albaricoque y un fondo envolvente de praliné, madera de guayaco, haba tonka, vainilla, sándalo.",
+    "imagenUrl": "/perfumes/BON BON COFRE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "xerjoff-groove-xcape",
+    "slug": "xerjoff-groove-xcape",
+    "nombre": "Xerjoff Groove Xcape",
+    "marca": "Xerjoff",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Pimienta",
+      "Elemí",
+      "Cardamomo",
+      "Jengibre"
+    ],
+    "notasCorazon": [
+      "Incienso",
+      "Mirra",
+      "Mimosa",
+      "Rosa"
+    ],
+    "notasFondo": [
+      "Cedro",
+      "Benjuí",
+      "Labdanum",
+      "Pachulí"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde pimienta, elemí, cardamomo, jengibre da paso a incienso, mirra, mimosa, rosa, sostenida por cedro, benjuí, labdanum, pachulí en el fondo.",
+    "imagenUrl": "/perfumes/XERJOFF_GROOVE XCAPE_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "xerjoff-tony-iommi",
+    "slug": "xerjoff-tony-iommi",
+    "nombre": "Xerjoff Tony Iommi",
+    "marca": "Xerjoff",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Ron",
+      "Maracuyá",
+      "Geranio",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Pachulí de Singapur",
+      "Canela",
+      "Cuero",
+      "Rosa búlgara"
+    ],
+    "notasFondo": [
+      "Caramelo",
+      "Vainilla",
+      "Haba tonka",
+      "Sándalo",
+      "Labdanum",
+      "Almizcle",
+      "Ámbar gris"
+    ],
+    "descripcion": "Salida de ron, maracuyá, geranio, bergamota, corazón de pachulí de singapur, canela, cuero, rosa búlgara y una base de caramelo, vainilla, haba tonka, sándalo, labdanum, almizcle, ámbar gris que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/XERJOFF TONY_IOMMI (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "xerjoff-erba-pura",
+    "slug": "xerjoff-erba-pura",
+    "nombre": "Xerjoff Erba Pura",
+    "marca": "Xerjoff",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Naranja siciliana",
+      "Bergamota calabresa",
+      "Limón siciliano"
+    ],
+    "notasCorazon": [
+      "Frutos mediterráneos"
+    ],
+    "notasFondo": [
+      "Almizcle blanco",
+      "Vainilla de Madagascar",
+      "Ámbar"
+    ],
+    "descripcion": "Una fragancia versátil y envolvente que abre con naranja siciliana, bergamota calabresa, limón siciliano, evoluciona hacia frutos mediterráneos y cierra con un fondo de almizcle blanco, vainilla de madagascar, ámbar.",
+    "imagenUrl": "/perfumes/XERJOFF ERBA_PURA COFRE_(100ML).png",
+    "destacado": true
+  },
+  {
+    "id": "xerjoff-overdose-accento",
+    "slug": "xerjoff-overdose-accento",
+    "nombre": "Xerjoff Overdose Accento",
+    "marca": "Xerjoff",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Bergamota",
+      "Limón"
+    ],
+    "notasCorazon": [
+      "Pera",
+      "Manzana"
+    ],
+    "notasFondo": [
+      "Almizcle",
+      "Ámbar",
+      "Maderas"
+    ],
+    "descripcion": "Combina bergamota, limón en la salida con pera, manzana en el corazón, sobre una base cálida de almizcle, ámbar, maderas.",
+    "imagenUrl": "/perfumes/XERJOFF_OVERDOSE_ACCENTO (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "black-phantom-by-kilian",
+    "slug": "black-phantom-by-kilian",
+    "nombre": "Black Phantom by Kilian",
+    "marca": "By Kilian",
+    "precio": 90000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Ron",
+      "Castaña"
+    ],
+    "notasCorazon": [
+      "Coñac",
+      "Haba tonka"
+    ],
+    "notasFondo": [
+      "Maderas rubias",
+      "Vainilla"
+    ],
+    "descripcion": "Fresca y versátil, mezcla ron, castaña con coñac, haba tonka y un fondo envolvente de maderas rubias, vainilla.",
+    "imagenUrl": "/perfumes/BLACK PHANTOM_BY KILIAN (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "marshmallow-blush",
+    "slug": "marshmallow-blush",
+    "nombre": "Marshmallow Blush",
+    "marca": "Lattafa",
+    "precio": 130000,
+    "ml": 100,
+    "categoria": "unisex",
+    "notasSalida": [
+      "Malvavisco",
+      "Vainilla"
+    ],
+    "notasCorazon": [
+      "Rosa",
+      "Almizcle"
+    ],
+    "notasFondo": [
+      "Crema",
+      "Sándalo"
+    ],
+    "descripcion": "Una composición versátil y envolvente donde malvavisco, vainilla da paso a rosa, almizcle, sostenida por crema, sándalo en el fondo.",
+    "imagenUrl": "/perfumes/MARSHMELLOW_BLUSH (100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "nitro-red-men",
+    "slug": "nitro-red-men",
+    "nombre": "Nitro Red Men",
+    "marca": "Dumont",
+    "precio": 115000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Lavanda",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Sandía",
+      "Cedro",
+      "Cálamo"
+    ],
+    "notasFondo": [
+      "Ámbar",
+      "Sándalo",
+      "Pachulí"
+    ],
+    "descripcion": "Salida de manzana, lavanda, bergamota, corazón de sandía, cedro, cálamo y una base de ámbar, sándalo, pachulí que deja un rastro duradero.",
+    "imagenUrl": "/perfumes/NITRO RED MEN_(100ML).png",
+    "destacado": false
+  },
+  {
+    "id": "9-pm",
+    "slug": "9-pm",
+    "nombre": "9 PM",
+    "marca": "Afnan",
+    "precio": 105000,
+    "ml": 100,
+    "categoria": "hombre",
+    "notasSalida": [
+      "Manzana",
+      "Canela",
+      "Lavanda silvestre",
+      "Bergamota"
+    ],
+    "notasCorazon": [
+      "Flor de azahar",
+      "Lirio de los valles"
+    ],
+    "notasFondo": [
+      "Vainilla",
+      "Haba tonka",
+      "Ámbar",
+      "Pachulí"
+    ],
+    "descripcion": "Una fragancia masculina y amaderada que abre con manzana, canela, lavanda silvestre, bergamota, evoluciona hacia flor de azahar, lirio de los valles y cierra con un fondo de vainilla, haba tonka, ámbar, pachulí.",
+    "imagenUrl": "/perfumes/9 PM TAPA PESADA.png",
+    "destacado": false
+  }
+]
