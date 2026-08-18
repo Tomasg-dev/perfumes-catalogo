@@ -328,7 +328,7 @@
     ],
     "descripcion": "Salida de almendra, café, corazón de jazmín sambac, tuberosa y una base de cacao, haba tonka, vainilla que deja un rastro duradero.",
     "imagenUrl": "/perfumes/GOOD GIRL TRADICIONAL (100ML).png",
-    "destacado": true
+    "destacado": false
   },
   {
     "id": "good-girl-very",
@@ -1168,7 +1168,7 @@
     ],
     "descripcion": "Salida de notas marinas, toronja, corazón de laurel y una base de maderas, ámbar gris que deja un rastro duradero.",
     "imagenUrl": "/perfumes/INVICTUS MEN_TRADICIONAL_(100ML).png",
-    "destacado": true
+    "destacado": false
   },
   {
     "id": "invictus-men-parfum",
@@ -1543,7 +1543,7 @@
     ],
     "descripcion": "Una fragancia femenina y floral que abre con miel, naranja sanguina, mandarina, evoluciona hacia gardenia y cierra con un fondo de pachulí.",
     "imagenUrl": "/perfumes/SCANDAL DAMA CAJA (100ML).png",
-    "destacado": false
+    "destacado": true
   },
   {
     "id": "nautica-voyage-men",
@@ -2262,7 +2262,7 @@
     ],
     "descripcion": "Combina toronja, menta en la salida con jengibre, nuez moscada en el corazón, sobre una base cálida de incienso, sándalo, cedro.",
     "imagenUrl": "/perfumes/BLEU DE CHANEL_(100ML).png",
-    "destacado": true
+    "destacado": false
   },
   {
     "id": "chance-chanel-eau-tendre",
@@ -2653,7 +2653,7 @@
     ],
     "descripcion": "Fresca y masculina, mezcla piña, grosella negra, bergamota, manzana con abedul, pachulí, jazmín y un fondo envolvente de almizcle, musgo de roble, ámbar gris, vainilla.",
     "imagenUrl": "/perfumes/CREED AVENTUS_(1OOML).png",
-    "destacado": true
+    "destacado": false
   },
   {
     "id": "creed-silver-mountain-water",
@@ -2828,7 +2828,7 @@
     ],
     "descripcion": "Salida de café negro, pera, corazón de jazmín, flor de naranjo y una base de vainilla, pachulí, cedro que deja un rastro duradero.",
     "imagenUrl": "/perfumes/BLACK OPIUM_DAMA (100 ML).png",
-    "destacado": true
+    "destacado": false
   },
   {
     "id": "versace-eros-tradicional",

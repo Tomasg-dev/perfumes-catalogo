@@ -24,6 +24,20 @@ export const metadata: Metadata = {
   title: `${SITE_NAME} | Catálogo de perfumes`,
   description:
     "Descubre nuestra selección de perfumes y consulta disponibilidad directamente por WhatsApp.",
+  openGraph: {
+    title: `${SITE_NAME} | Catálogo de perfumes`,
+    description:
+      "Descubre nuestra selección de perfumes y consulta disponibilidad directamente por WhatsApp.",
+    siteName: SITE_NAME,
+    locale: "es_CO",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: `${SITE_NAME} | Catálogo de perfumes`,
+    description:
+      "Descubre nuestra selección de perfumes y consulta disponibilidad directamente por WhatsApp.",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
