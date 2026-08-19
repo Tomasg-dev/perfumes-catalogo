@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import SiteChrome from "@/components/SiteChrome";
 import { CartProvider } from "@/lib/cart-context";
-import { SITE_NAME } from "@/lib/config";
+import { SITE_NAME, SITE_URL } from "@/lib/config";
+import { buildOrganizationJsonLd } from "@/lib/seo";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -18,6 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: `${SITE_NAME} | Catálogo de perfumes`,
   description:
     "Descubre nuestra selección de perfumes y consulta disponibilidad directamente por WhatsApp.",
@@ -45,6 +47,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildOrganizationJsonLd()) }}
+        />
         <CartProvider>
           <SiteChrome>{children}</SiteChrome>
         </CartProvider>

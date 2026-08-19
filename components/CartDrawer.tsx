@@ -79,7 +79,6 @@ export default function CartDrawer() {
                       nombre={item.nombre}
                       marca={item.marca}
                       sizes="64px"
-                      unoptimized={item.tipo === "tenis"}
                     />
                   </div>
                   <div className="min-w-0 flex-1">

@@ -1,4 +1,5 @@
 import { createClient } from "@/lib/supabase/server";
+import { createPublicClient } from "@/lib/supabase/public";
 import type { Tenis, TenisAdmin } from "./types";
 import type { ColorTenis } from "./colores-tenis";
 
@@ -59,8 +60,10 @@ export interface TenisPageResult {
 }
 
 // Página pública: sin sesión de admin, RLS solo deja ver activo = true.
+// Cliente sin cookies a propósito — así esta lectura no fuerza renderizado
+// dinámico en las páginas que la usan (home, /tenis, /tenis/[slug]).
 export async function getTenisPage(params: TenisPageParams): Promise<TenisPageResult> {
-  const supabase = await createClient();
+  const supabase = createPublicClient();
   const page = Math.max(1, params.page ?? 1);
   const from = (page - 1) * TENIS_POR_PAGINA;
   const to = from + TENIS_POR_PAGINA - 1;
@@ -92,8 +95,22 @@ export async function getTenisPage(params: TenisPageParams): Promise<TenisPageRe
   };
 }
 
+// Para el sitemap: todos los slugs públicos (RLS ya filtra activo = true).
+export async function getAllTenisSlugs(): Promise<
+  { slug: string; createdAt: string }[]
+> {
+  const supabase = createPublicClient();
+  const { data, error } = await supabase.from("tenis").select("slug, created_at");
+
+  if (error) throw error;
+  return (data as { slug: string; created_at: string }[]).map((row) => ({
+    slug: row.slug,
+    createdAt: row.created_at,
+  }));
+}
+
 export async function getTenisBySlug(slug: string): Promise<Tenis | null> {
-  const supabase = await createClient();
+  const supabase = createPublicClient();
   const { data, error } = await supabase
     .from("tenis")
     .select("*")

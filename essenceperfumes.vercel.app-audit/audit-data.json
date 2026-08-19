@@ -1,0 +1,234 @@
+{
+  "summary": {
+    "health_score": 49,
+    "business_type": "E-commerce (fragrances + sneakers, WhatsApp-driven checkout)",
+    "top_findings": [
+      "robots.txt and sitemap.xml both return 404 — no crawl directives and none of the 240+ product pages are formally submitted for indexing",
+      "Zero structured data anywhere on the site — no Product, Organization, or WebSite JSON-LD despite 233 perfume SKUs with clean price/image/availability data",
+      "No canonical tags on any page",
+      "The entire tenis (sneaker) line — list page + every product page — is served with cache-control: private, no-store because the Supabase auth client reads cookies(), forcing full SSR on every request",
+      "Tenis product pages have no body content at all — meta description is just \"{name} — {category}.\""
+    ],
+    "quick_wins": [
+      "Add app/robots.ts and app/sitemap.ts (Next.js App Router route handlers) — near-zero effort, fixes two Critical findings at once",
+      "Add Product JSON-LD to /producto/[slug] and /tenis/[slug] using data already on the page (price, image, brand, availability)",
+      "Add a shared canonical + metadataBase in app/layout.tsx",
+      "Add a default Open Graph image (1200x630) so WhatsApp/social shares of product links show a preview"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 45,
+      "what_works": [
+        "Clean, semantic URL structure (/producto/[slug], /tenis/[slug])",
+        "HTTPS enforced with HSTS (max-age=63072000; includeSubDomains; preload)",
+        "Correct lang=\"es\" / og:locale=\"es_CO\" for the target market",
+        "Legacy /catalogo path correctly 301-redirects to /perfumes",
+        "/admin routes correctly carry robots: { index: false, follow: false }"
+      ],
+      "findings": [
+        {
+          "title": "robots.txt returns 404",
+          "severity": "Critical",
+          "description": "GET /robots.txt returns HTTP 404 (Next.js catch-all 404 page, content-type text/html). There is no app/robots.ts and no public/robots.txt in the repo.",
+          "recommendation": "Add app/robots.ts using Next's MetadataRoute.Robots export, at minimum allowing all and pointing to sitemap.xml."
+        },
+        {
+          "title": "sitemap.xml returns 404",
+          "severity": "Critical",
+          "description": "GET /sitemap.xml returns HTTP 404. With 233 perfume products (all statically generated via generateStaticParams) plus a growing Supabase-backed tenis catalog, there is no sitemap to help Google discover and prioritize these URLs.",
+          "recommendation": "Add app/sitemap.ts that lists /, /perfumes, /tenis, and generates entries for every /producto/[slug] and /tenis/[slug] from the same data sources used by generateStaticParams / getTenisPage."
+        },
+        {
+          "title": "Entire tenis section is fully dynamic, uncached",
+          "severity": "High",
+          "description": "/, /tenis, and every /tenis/[slug] return cache-control: private, no-cache, no-store, must-revalidate with x-vercel-cache: MISS. This traces to lib/tenis.ts calling createClient() from lib/supabase/server.ts, which reads cookies() — Next.js forces the entire route to dynamic rendering whenever cookies() is touched, even for anonymous visitors just browsing the catalog. By contrast /perfumes and /producto/[slug] (static local JSON, no Supabase call) are cached and served from Vercel's edge (x-vercel-cache: HIT / PRERENDER).",
+          "recommendation": "Split the Supabase client so anonymous catalog reads use a cookie-free client (e.g. a plain @supabase/supabase-js client with the anon key), or wrap the public read path with `export const revalidate = 60` / React `cache()` so it can be statically generated or ISR'd instead of forced to per-request SSR."
+        },
+        {
+          "title": "No canonical tags on any page",
+          "severity": "High",
+          "description": "Checked homepage, /perfumes, /producto/sauvage-dior — none emit <link rel=\"canonical\">.",
+          "recommendation": "Set alternates.canonical in each page's Metadata (or a shared helper) and add metadataBase to app/layout.tsx so relative canonical/OG URLs resolve correctly."
+        },
+        {
+          "title": "No security headers beyond Vercel's default HSTS",
+          "severity": "Medium",
+          "description": "Response headers are missing X-Content-Type-Options, X-Frame-Options / frame-ancestors, Referrer-Policy, and Permissions-Policy.",
+          "recommendation": "Add a headers() block in next.config.ts to set these on all routes. Not a ranking factor directly, but Lighthouse/Chrome flag it and it's a cheap hardening win."
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 55,
+      "what_works": [
+        "All 233 perfume descriptions verified unique — no duplicate-content risk despite templated generation",
+        "Every perfume has notes (salida/corazón/fondo), price, and a 1-2 sentence description"
+      ],
+      "findings": [
+        {
+          "title": "Tenis product pages have no body content",
+          "severity": "High",
+          "description": "app/tenis/[slug]/page.tsx renders only name, category, color, and price — no description text anywhere. generateMetadata produces description: `${nombre} — ${categoria}.` (e.g. \"NIKE TN — Hombre.\"), which is below any reasonable thin-content threshold.",
+          "recommendation": "Add a short unique description field to the tenis Supabase schema (even 1-2 templated sentences from category + color + a materials/fit note) and render it on the page, mirroring what perfumes already do."
+        },
+        {
+          "title": "Perfume descriptions are formulaic, not experiential",
+          "severity": "Medium",
+          "description": "Descriptions follow one template: \"Combina [notas salida] en la salida con [notas corazón] en el corazón, sobre una base cálida de [notas fondo].\" Unique per product, but offers no brand story, use-case framing, or first-hand sensory language — limited E-E-A-T signal for 233 pages competing on similar fragrance-note keywords.",
+          "recommendation": "Not urgent given catalog size, but consider enriching top-selling/featured perfumes first with a sentence of experiential copy (occasion, longevity, similar-to comparisons) rather than rewriting all 233 at once."
+        },
+        {
+          "title": "Category hub pages carry no descriptive copy",
+          "severity": "Medium",
+          "description": "/perfumes and /tenis render only an H1 and a product count before the filter grid — no intro paragraph targeting category-level search terms (e.g. \"perfumes para hombre\", \"tenis nike\").",
+          "recommendation": "Add a 2-3 sentence intro under the H1 on each hub page, naturally covering the category's main subtypes/brands."
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 60,
+      "what_works": [
+        "Unique, descriptive <title> and meta description on every perfume product page (e.g. \"Dior Sauvage Dior | Essence\")",
+        "Single, correctly placed H1 on every page checked",
+        "Clean heading hierarchy, no skipped levels observed"
+      ],
+      "findings": [
+        {
+          "title": "No Open Graph image anywhere on the site",
+          "severity": "Medium",
+          "description": "openGraph in app/layout.tsx defines title/description/siteName/locale/type but no images array, and no page overrides it. Since the business's entire funnel is \"share a product on WhatsApp,\" every shared link renders with zero preview image.",
+          "recommendation": "Add a default 1200x630 og:image in the root layout, and per-product OG images using each perfume/tenis's existing imagenUrl (Next's ImageResponse or a static template) so WhatsApp/social previews show the actual product."
+        },
+        {
+          "title": "No metadataBase configured",
+          "severity": "Low",
+          "description": "app/layout.tsx does not set metadataBase, which Next.js needs to resolve relative OG/canonical URLs to absolute ones.",
+          "recommendation": "Add metadataBase: new URL(\"https://essenceperfumes.vercel.app\") to the root metadata export."
+        }
+      ]
+    },
+    {
+      "name": "Schema & Structured Data",
+      "score": 10,
+      "what_works": [],
+      "findings": [
+        {
+          "title": "No structured data anywhere on the site",
+          "severity": "Critical",
+          "description": "render_page structured-data extraction found 0 JSON-LD blocks on the homepage; manual checks on /producto/sauvage-dior confirm the same. There is no Product, Organization, WebSite, or BreadcrumbList schema, despite the site already holding exactly the fields Product schema needs (name, brand, image, price, currency, availability) for 233+ SKUs.",
+          "recommendation": "Add JSON-LD Product schema to /producto/[slug] and /tenis/[slug] (name, image, brand, offers.price, offers.priceCurrency=\"COP\", offers.availability). Add a single Organization/WebSite schema in the root layout for brand entity signals. Do not add FAQPage for SERP benefit — Google retired FAQ rich results for all sites on 2026-05-07."
+        }
+      ]
+    },
+    {
+      "name": "Performance",
+      "score": 50,
+      "what_works": [
+        "Perfume product images use next/image with a full responsive srcset and automatic format negotiation",
+        "/producto/[slug] pages are statically prerendered via generateStaticParams (x-vercel-cache: PRERENDER) — fast and edge-cached"
+      ],
+      "findings": [
+        {
+          "title": "Tenis images bypass Next.js image optimization",
+          "severity": "Medium",
+          "description": "TenisCard and the tenis detail page pass unoptimized to PerfumeImage/next-image, so Supabase-hosted .webp files are served at one fixed size to every device instead of a responsive srcset. Source files are already webp and moderately sized (~83KB observed), so impact is real but not severe.",
+          "recommendation": "Confirm the Supabase hostname is correctly declared in next.config.ts remotePatterns (it already is) and remove the `unoptimized` prop so Next can resize per breakpoint."
+        },
+        {
+          "title": "No field/lab Core Web Vitals data available",
+          "severity": "Info",
+          "description": "No Google API credentials are configured for this environment (PageSpeed Insights / CrUX both report 'No credentials configured'), so this audit could not pull real LCP/INP/CLS numbers.",
+          "recommendation": "Run `/seo google report full` after connecting a PageSpeed Insights API key for real CWV numbers, or check web.dev/measure directly."
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 50,
+      "what_works": [
+        "No robots.txt means no crawler (including AI crawlers like GPTBot/PerplexityBot) is explicitly blocked",
+        "Content is server-rendered in raw HTML — extracted_text confirms product/catalog content is present without JS execution, so it's fully citable by non-JS-executing AI crawlers"
+      ],
+      "findings": [
+        {
+          "title": "Missing entity/schema signals reduce citation confidence",
+          "severity": "Medium",
+          "description": "Same root cause as the Schema finding: no Organization/Product JSON-LD means AI answer engines have no structured, machine-readable confirmation of brand identity, product prices, or availability.",
+          "recommendation": "Resolves once Product/Organization JSON-LD (above) ships — no separate work needed."
+        },
+        {
+          "title": "llms.txt not present",
+          "severity": "Low",
+          "description": "No /llms.txt file. This is optional and ignored by Google; only relevant if targeting specific AI crawlers that choose to honor it.",
+          "recommendation": "Optional, low priority — skip unless a specific AI-referral channel is being targeted."
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 65,
+      "what_works": [
+        "All product images carry descriptive alt text (brand + product name)",
+        "Broken-image fallback UI in PerfumeImage handles load failures gracefully"
+      ],
+      "findings": [
+        {
+          "title": "Large source PNGs for perfume images",
+          "severity": "Low",
+          "description": "Source files in public/perfumes/ run up to ~360KB each (41MB total across 233 files) as PNG. next/image automatically serves optimized/resized derivatives at request time, so live page weight is much lower, but the source assets are heavier than necessary for what's effectively a bottle-on-transparent-background product shot.",
+          "recommendation": "Optional: convert source assets to WebP before upload to cut origin storage/bandwidth, though user-facing impact is already mitigated by next/image."
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes",
+        "timeframe": "Week 1",
+        "items": [
+          "Add app/robots.ts",
+          "Add app/sitemap.ts covering /, /perfumes, /tenis, all /producto/[slug], all /tenis/[slug]",
+          "Add Product JSON-LD to /producto/[slug] and /tenis/[slug]"
+        ]
+      },
+      {
+        "name": "Phase 2: High-Impact Improvements",
+        "timeframe": "Weeks 2-3",
+        "items": [
+          "Fix forced-dynamic rendering on / and /tenis* by decoupling the anonymous read path from the cookie-reading Supabase client (or add revalidate/ISR)",
+          "Add canonical tags + metadataBase in app/layout.tsx",
+          "Write real descriptions for tenis product pages (replace the 'name — category.' meta description)",
+          "Add a default + per-product Open Graph image"
+        ]
+      },
+      {
+        "name": "Phase 3: Content & Authority",
+        "timeframe": "Month 2",
+        "items": [
+          "Add intro copy to /perfumes and /tenis hub pages",
+          "Add Organization/WebSite JSON-LD",
+          "Add security headers (X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy)",
+          "Remove `unoptimized` from tenis product images"
+        ]
+      },
+      {
+        "name": "Phase 4: Monitoring & Iteration",
+        "timeframe": "Ongoing",
+        "items": [
+          "Submit the new sitemap.xml in Google Search Console once live and monitor indexation",
+          "Connect a PageSpeed Insights API key to get real CWV field data on the next audit",
+          "Re-run /seo audit after Phase 1-2 ship to confirm the health score moved"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  }
+}

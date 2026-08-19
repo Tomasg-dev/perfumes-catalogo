@@ -7,6 +7,9 @@ import { getTenisPage, type OrdenTenis } from "@/lib/tenis";
 export const metadata: Metadata = {
   title: "Tenis | Essence",
   description: "Explora todos los tenis disponibles, filtra y encuentra el tuyo.",
+  // Las variantes filtradas/paginadas (?categoria=, ?q=, ?page=) canonicalizan
+  // a la vista base para no crear contenido duplicado por combinación de filtros.
+  alternates: { canonical: "/tenis" },
 };
 
 const ORDENES: OrdenTenis[] = ["destacados", "precio-asc", "precio-desc"];
@@ -27,6 +30,11 @@ export default async function TenisPage({ searchParams }: PageProps<"/tenis">) {
     <div className="mx-auto max-w-6xl px-6 py-16">
       <div className="mb-10 text-center">
         <h1 className="font-serif text-4xl text-[var(--color-ink)]">Tenis</h1>
+        <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-[var(--color-muted)]">
+          Zapatillas para hombre y mujer, con nuevas referencias sumándose cada
+          semana. Filtra por categoría o precio y escríbenos por WhatsApp para
+          confirmar disponibilidad y envío.
+        </p>
         <p className="mt-3 text-sm text-[var(--color-muted)]">{total} tenis disponibles</p>
       </div>
 

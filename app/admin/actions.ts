@@ -47,6 +47,7 @@ export async function createTenisBatch(items: NuevoTenis[]) {
 
   revalidatePath("/admin/tenis");
   revalidatePath("/tenis");
+  revalidatePath("/tenis/[slug]", "page");
   revalidatePath("/");
 }
 
@@ -78,6 +79,7 @@ export async function updateTenis(id: string, formData: FormData) {
 
   revalidatePath("/admin/tenis");
   revalidatePath("/tenis");
+  revalidatePath("/tenis/[slug]", "page");
   revalidatePath("/");
 }
 
@@ -96,5 +98,6 @@ export async function deleteTenis(id: string, imagenUrl: string) {
 
   revalidatePath("/admin/tenis");
   revalidatePath("/tenis");
+  revalidatePath("/tenis/[slug]", "page");
   revalidatePath("/");
 }

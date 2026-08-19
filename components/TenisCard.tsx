@@ -20,7 +20,6 @@ export default function TenisCard({
           imagenUrl={tenis.imagenUrl}
           nombre={tenis.nombre}
           sizes={sizes}
-          unoptimized
         />
       </Link>
       <div className="flex items-start justify-between gap-3 pt-4">

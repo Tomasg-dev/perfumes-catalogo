@@ -9,6 +9,8 @@ import { getPerfumes, getPerfumeBySlug } from "@/lib/sheets";
 import { getRelatedPerfumes } from "@/lib/related";
 import { formatPrice, CATEGORIA_LABELS } from "@/lib/format";
 import { perfumeToCartItem } from "@/lib/cart-items";
+import { buildProductJsonLd, absoluteUrl } from "@/lib/seo";
+import { SITE_URL, SITE_NAME } from "@/lib/config";
 
 export async function generateStaticParams() {
   const perfumes = await getPerfumes();
@@ -23,9 +25,27 @@ export async function generateMetadata({
 
   if (!perfume) return { title: "Perfume no encontrado" };
 
+  const title = `${perfume.marca} ${perfume.nombre} | ${SITE_NAME}`;
+  const image = absoluteUrl(perfume.imagenUrl);
+
   return {
-    title: `${perfume.marca} ${perfume.nombre} | Essence`,
+    title,
     description: perfume.descripcion,
+    alternates: { canonical: `/producto/${perfume.slug}` },
+    openGraph: {
+      title,
+      description: perfume.descripcion,
+      siteName: SITE_NAME,
+      locale: "es_CO",
+      type: "website",
+      images: image ? [{ url: image }] : undefined,
+    },
+    twitter: {
+      card: image ? "summary_large_image" : "summary",
+      title,
+      description: perfume.descripcion,
+      images: image ? [image] : undefined,
+    },
   };
 }
 
@@ -52,8 +72,21 @@ export default async function ProductoPage({
 
   const relacionados = getRelatedPerfumes(perfume, perfumes);
 
+  const jsonLd = buildProductJsonLd({
+    name: `${perfume.marca} ${perfume.nombre}`,
+    brand: perfume.marca,
+    description: perfume.descripcion,
+    image: perfume.imagenUrl,
+    price: perfume.precio,
+    url: `${SITE_URL}/producto/${perfume.slug}`,
+  });
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="mx-auto max-w-6xl px-6 py-16">
         <Link
           href="/perfumes"

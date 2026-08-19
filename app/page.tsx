@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import PerfumeCard from "@/components/PerfumeCard";
 import TenisCard from "@/components/TenisCard";
@@ -7,6 +8,10 @@ import CategoryTiles from "@/components/CategoryTiles";
 import HeroWatermark from "@/components/HeroWatermark";
 import { getPerfumes } from "@/lib/sheets";
 import { getTenisPage } from "@/lib/tenis";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default async function Home() {
   const [perfumes, tenisPage] = await Promise.all([
