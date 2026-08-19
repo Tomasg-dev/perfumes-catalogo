@@ -58,7 +58,15 @@ export default async function TenisPage({ searchParams }: PageProps<"/tenis">) {
       <Paginacion
         page={page}
         totalPages={totalPages}
-        searchParams={{ categoria, q: q || undefined, orden: orden !== "destacados" ? orden : undefined }}
+        hrefForPage={(p) => {
+          const params = new URLSearchParams();
+          if (categoria) params.set("categoria", categoria);
+          if (q) params.set("q", q);
+          if (orden !== "destacados") params.set("orden", orden);
+          if (p > 1) params.set("page", String(p));
+          const qs = params.toString();
+          return qs ? `/tenis?${qs}` : "/tenis";
+        }}
       />
     </div>
   );
