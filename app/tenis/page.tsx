@@ -18,7 +18,10 @@ export default async function TenisPage({ searchParams }: PageProps<"/tenis">) {
   const sp = await searchParams;
 
   const categoriaRaw = typeof sp.categoria === "string" ? sp.categoria : undefined;
-  const categoria = categoriaRaw === "hombre" || categoriaRaw === "mujer" ? categoriaRaw : undefined;
+  const categoria =
+    categoriaRaw === "hombre" || categoriaRaw === "mujer" || categoriaRaw === "unisex"
+      ? categoriaRaw
+      : undefined;
   const q = typeof sp.q === "string" ? sp.q : "";
   const ordenRaw = typeof sp.orden === "string" ? sp.orden : undefined;
   const orden = ORDENES.includes(ordenRaw as OrdenTenis) ? (ordenRaw as OrdenTenis) : "destacados";
@@ -31,9 +34,9 @@ export default async function TenisPage({ searchParams }: PageProps<"/tenis">) {
       <div className="mb-10 text-center">
         <h1 className="font-serif text-4xl text-[var(--color-ink)]">Tenis</h1>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-[var(--color-muted)]">
-          Zapatillas para hombre y mujer, con nuevas referencias sumándose cada
-          semana. Filtra por categoría o precio y escríbenos por WhatsApp para
-          confirmar disponibilidad y envío.
+          Zapatillas para hombre, mujer y unisex, con nuevas referencias
+          sumándose cada semana. Filtra por categoría o precio y escríbenos
+          por WhatsApp para confirmar disponibilidad y envío.
         </p>
         <p className="mt-3 text-sm text-[var(--color-muted)]">{total} tenis disponibles</p>
       </div>

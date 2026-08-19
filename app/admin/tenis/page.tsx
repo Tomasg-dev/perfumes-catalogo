@@ -59,6 +59,9 @@ export default async function AdminTenisPage() {
                   <option value="mujer" className={SELECT_OPTION_CLASSNAME}>
                     Mujer
                   </option>
+                  <option value="unisex" className={SELECT_OPTION_CLASSNAME}>
+                    Unisex
+                  </option>
                 </select>
                 <select
                   name="color"

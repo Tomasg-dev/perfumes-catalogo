@@ -144,6 +144,9 @@ export default function SubirTenisPage() {
                   <option value="mujer" className={SELECT_OPTION_CLASSNAME}>
                     Mujer
                   </option>
+                  <option value="unisex" className={SELECT_OPTION_CLASSNAME}>
+                    Unisex
+                  </option>
                 </select>
                 <select
                   value={b.color}

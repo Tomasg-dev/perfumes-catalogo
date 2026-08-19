@@ -1,7 +1,7 @@
 import type { ColorTenis } from "./colores-tenis";
 
 export type Categoria = "hombre" | "mujer" | "unisex";
-export type CategoriaTenis = "hombre" | "mujer";
+export type CategoriaTenis = "hombre" | "mujer" | "unisex";
 
 export interface Tenis {
   id: string;

@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: `${SITE_NAME} | Catálogo de perfumes`,
   description:
-    "Descubre nuestra selección de perfumes y consulta disponibilidad directamente por WhatsApp.",
+    "Descubre nuestra selección de perfumes y tenis, y consulta disponibilidad directamente por WhatsApp.",
   openGraph: {
     title: `${SITE_NAME} | Catálogo de perfumes`,
     description:
-      "Descubre nuestra selección de perfumes y consulta disponibilidad directamente por WhatsApp.",
+      "Descubre nuestra selección de perfumes y tenis, y consulta disponibilidad directamente por WhatsApp.",
     siteName: SITE_NAME,
     locale: "es_CO",
     type: "website",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: `${SITE_NAME} | Catálogo de perfumes`,
     description:
-      "Descubre nuestra selección de perfumes y consulta disponibilidad directamente por WhatsApp.",
+      "Descubre nuestra selección de perfumes y tenis, y consulta disponibilidad directamente por WhatsApp.",
   },
   verification: {
     google: "re_J4pI1hWHN61ZtJv409mMhdtP6TteY06kzmZS-kl8",

@@ -5,7 +5,7 @@ import type { OrdenTenis } from "@/lib/tenis";
 import { CATEGORIA_LABELS } from "@/lib/format";
 import { GOLD_CHEVRON_STYLE, SELECT_OPTION_CLASSNAME } from "@/lib/select-style";
 
-const CATEGORIAS = ["todos", "hombre", "mujer"] as const;
+const CATEGORIAS = ["todos", "hombre", "mujer", "unisex"] as const;
 
 export default function TenisExplorer() {
   const router = useRouter();

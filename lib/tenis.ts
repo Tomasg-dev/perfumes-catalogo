@@ -7,7 +7,7 @@ interface TenisRow {
   id: string;
   slug: string;
   nombre: string;
-  categoria: "hombre" | "mujer";
+  categoria: "hombre" | "mujer" | "unisex";
   color: string | null;
   precio: number | null;
   imagen_url: string;
@@ -46,7 +46,7 @@ export const TENIS_POR_PAGINA = 24;
 export type OrdenTenis = "destacados" | "precio-asc" | "precio-desc";
 
 export interface TenisPageParams {
-  categoria?: "hombre" | "mujer";
+  categoria?: "hombre" | "mujer" | "unisex";
   q?: string;
   orden?: OrdenTenis;
   page?: number;

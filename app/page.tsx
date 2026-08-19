@@ -33,10 +33,10 @@ export default async function Home() {
             Perfumes y tenis con estilo
           </p>
           <h1 className="max-w-2xl font-serif text-4xl leading-tight text-[var(--color-ink)] sm:text-5xl">
-            Encuentra tu próximo favorito
+            Perfumes y tenis que hablan por ti
           </h1>
           <p className="max-w-md text-sm text-[var(--color-muted)] sm:text-base">
-            Explora nuestros catálogos y consulta disponibilidad y envíos
+            Explora nuestros catálogos, consulta disponibilidad y envíos
             directamente por WhatsApp.
           </p>
           <div className="mt-2 flex flex-col gap-4 sm:flex-row">
