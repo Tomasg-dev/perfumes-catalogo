@@ -37,6 +37,9 @@ export const metadata: Metadata = {
     description:
       "Descubre nuestra selección de perfumes y consulta disponibilidad directamente por WhatsApp.",
   },
+  verification: {
+    google: "re_J4pI1hWHN61ZtJv409mMhdtP6TteY06kzmZS-kl8",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
