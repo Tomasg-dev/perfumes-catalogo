@@ -6,7 +6,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import TrustStrip from "@/components/TrustStrip";
 import CategoryTiles from "@/components/CategoryTiles";
 import HeroWatermark from "@/components/HeroWatermark";
-import { getPerfumes } from "@/lib/sheets";
+import { getPerfumes } from "@/lib/perfumes";
 import { getTenisPage } from "@/lib/tenis";
 
 export const metadata: Metadata = {

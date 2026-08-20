@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import CatalogExplorer from "@/components/CatalogExplorer";
 import BottleIcon from "@/components/icons/BottleIcon";
-import { getPerfumes } from "@/lib/sheets";
+import { getPerfumes } from "@/lib/perfumes";
 import type { Categoria } from "@/lib/types";
 
 export const metadata: Metadata = {

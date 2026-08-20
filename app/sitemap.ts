@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getPerfumes } from "@/lib/sheets";
+import { getPerfumes } from "@/lib/perfumes";
 import { getAllTenisSlugs } from "@/lib/tenis";
 import { SITE_URL } from "@/lib/config";
 

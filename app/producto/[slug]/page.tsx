@@ -6,7 +6,7 @@ import BackLink from "@/components/BackLink";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import AddToCartButton from "@/components/AddToCartButton";
 import RelatedPerfumes from "@/components/RelatedPerfumes";
-import { getPerfumes, getPerfumeBySlug } from "@/lib/sheets";
+import { getPerfumes, getPerfumeBySlug } from "@/lib/perfumes";
 import { getRelatedPerfumes } from "@/lib/related";
 import { formatPrice, CATEGORIA_LABELS } from "@/lib/format";
 import { perfumeToCartItem } from "@/lib/cart-items";

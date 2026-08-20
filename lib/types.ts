@@ -32,6 +32,8 @@ export interface Perfume {
   destacado: boolean;
 }
 
+export type PerfumeAdmin = Perfume & { activo: boolean };
+
 export type ProductType = "perfume" | "tenis";
 
 export interface CartItem {

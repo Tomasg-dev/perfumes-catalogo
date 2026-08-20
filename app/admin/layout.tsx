@@ -20,6 +20,9 @@ export default async function AdminLayout({ children }: LayoutProps<"/admin">) {
       <header className="border-b border-[var(--color-border)] bg-[var(--color-paper-alt)]">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <nav className="flex items-center gap-6 text-sm tracking-wide text-[var(--color-ink)]">
+            <Link href="/admin/perfumes" className="hover:text-[var(--color-gold)]">
+              Perfumes
+            </Link>
             <Link href="/admin/tenis" className="hover:text-[var(--color-gold)]">
               Tenis
             </Link>
