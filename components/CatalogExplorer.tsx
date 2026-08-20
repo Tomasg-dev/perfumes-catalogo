@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import PerfumeCard from "./PerfumeCard";
-import Paginacion from "./Paginacion";
 import type { Perfume, Categoria } from "@/lib/types";
 import { CATEGORIA_LABELS } from "@/lib/format";
 import { GOLD_CHEVRON_STYLE, SELECT_OPTION_CLASSNAME } from "@/lib/select-style";
@@ -11,7 +10,8 @@ import { GOLD_CHEVRON_STYLE, SELECT_OPTION_CLASSNAME } from "@/lib/select-style"
 type Orden = "destacados" | "precio-asc" | "precio-desc";
 
 const CATEGORIAS: (Categoria | "todos")[] = ["todos", "hombre", "mujer", "unisex"];
-const PERFUMES_POR_PAGINA = 24;
+const PERFUMES_INICIAL = 36;
+const PERFUMES_INCREMENTO = 36;
 
 // Los perfumes con precio pendiente (null) siempre quedan al final,
 // sin importar la dirección del orden.
@@ -27,13 +27,13 @@ export default function CatalogExplorer({
   initialCategoria = "todos",
   initialBusqueda = "",
   initialOrden = "destacados",
-  initialPagina = 1,
+  initialVisibleCount = PERFUMES_INICIAL,
 }: {
   perfumes: Perfume[];
   initialCategoria?: Categoria | "todos";
   initialBusqueda?: string;
   initialOrden?: Orden;
-  initialPagina?: number;
+  initialVisibleCount?: number;
 }) {
   const router = useRouter();
   const pathname = usePathname();
@@ -41,7 +41,7 @@ export default function CatalogExplorer({
   const [categoria, setCategoria] = useState<Categoria | "todos">(initialCategoria);
   const [busqueda, setBusqueda] = useState(initialBusqueda);
   const [orden, setOrden] = useState<Orden>(initialOrden);
-  const [pagina, setPagina] = useState(initialPagina);
+  const [visibleCount, setVisibleCount] = useState(initialVisibleCount);
 
   const resultado = useMemo(() => {
     let lista = perfumes;
@@ -70,44 +70,39 @@ export default function CatalogExplorer({
     return ordenada;
   }, [perfumes, categoria, busqueda, orden]);
 
-  const totalPages = Math.max(1, Math.ceil(resultado.length / PERFUMES_POR_PAGINA));
-
   function cambiarCategoria(c: Categoria | "todos") {
     setCategoria(c);
-    setPagina(1);
+    setVisibleCount(PERFUMES_INICIAL);
   }
 
   function cambiarBusqueda(q: string) {
     setBusqueda(q);
-    setPagina(1);
+    setVisibleCount(PERFUMES_INICIAL);
   }
 
   function cambiarOrden(o: Orden) {
     setOrden(o);
-    setPagina(1);
+    setVisibleCount(PERFUMES_INICIAL);
   }
 
-  const paginaActual = Math.min(pagina, totalPages);
-  const pageStart = (paginaActual - 1) * PERFUMES_POR_PAGINA;
-  const resultadoPagina = resultado.slice(pageStart, pageStart + PERFUMES_POR_PAGINA);
+  const resultadoVisible = resultado.slice(0, visibleCount);
+  const hayMas = resultado.length > visibleCount;
 
   // Refleja los filtros en la URL (sin recargar) para que "atrás" desde la
-  // ficha de un producto vuelva exactamente con el mismo filtro/página.
+  // ficha de un producto vuelva exactamente con el mismo filtro y la misma
+  // cantidad de perfumes ya cargados.
   useEffect(() => {
     const params = new URLSearchParams();
     if (categoria !== "todos") params.set("categoria", categoria);
     if (busqueda) params.set("q", busqueda);
     if (orden !== "destacados") params.set("orden", orden);
-    if (paginaActual > 1) params.set("page", String(paginaActual));
+    if (visibleCount > PERFUMES_INICIAL) params.set("mostrar", String(visibleCount));
     const qs = params.toString();
     router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-  }, [categoria, busqueda, orden, paginaActual, pathname, router]);
+  }, [categoria, busqueda, orden, visibleCount, pathname, router]);
 
-  function irAPagina(p: number) {
-    setPagina(p);
-    if (typeof window !== "undefined") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
+  function verMas() {
+    setVisibleCount((v) => Math.min(resultado.length, v + PERFUMES_INCREMENTO));
   }
 
   return (
@@ -164,11 +159,21 @@ export default function CatalogExplorer({
       ) : (
         <>
           <div className="grid grid-cols-2 gap-x-6 gap-y-12 py-10 sm:grid-cols-3 lg:grid-cols-4">
-            {resultadoPagina.map((perfume) => (
+            {resultadoVisible.map((perfume) => (
               <PerfumeCard key={perfume.id} perfume={perfume} />
             ))}
           </div>
-          <Paginacion page={paginaActual} totalPages={totalPages} onPageChange={irAPagina} />
+          {hayMas && (
+            <div className="flex justify-center pb-10">
+              <button
+                type="button"
+                onClick={verMas}
+                className="rounded-full border border-[var(--color-ink)] px-8 py-3 text-sm tracking-wide text-[var(--color-ink)] transition-colors hover:bg-[var(--color-ink)] hover:text-[var(--color-paper)]"
+              >
+                Ver más
+              </button>
+            </div>
+          )}
         </>
       )}
     </div>

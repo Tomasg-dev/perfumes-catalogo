@@ -33,9 +33,9 @@ cp .env.local.example .env.local
   del proyecto de Supabase que respalda el catálogo de tenis y el panel
   admin (Settings → API en el dashboard de Supabase).
 
-**Sobre las fotos de perfumes:** viven en `public/perfumes/` y cada producto
-en `data/perfumes.sample.json` referencia la suya en `imagenUrl` (ruta
-`/perfumes/archivo.png`). Si un producto no tiene foto todavía, deja
+**Sobre las fotos de perfumes:** viven en `public/perfumes/` como WebP y cada
+producto en `data/perfumes.sample.json` referencia la suya en `imagenUrl`
+(ruta `/perfumes/archivo.webp`). Si un producto no tiene foto todavía, deja
 `imagenUrl` en `null`: el sitio muestra automáticamente una ilustración de
 reemplazo, nunca un ícono roto.
 

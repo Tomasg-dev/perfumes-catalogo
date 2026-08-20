@@ -26,7 +26,7 @@ export default async function PerfumesPage({ searchParams }: PageProps<"/perfume
   const orden = ORDENES_VALIDOS.includes(ordenRaw as (typeof ORDENES_VALIDOS)[number])
     ? (ordenRaw as (typeof ORDENES_VALIDOS)[number])
     : "destacados";
-  const pagina = Number(sp.page) || 1;
+  const mostrar = Number(sp.mostrar) || 36;
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-16">
@@ -49,7 +49,7 @@ export default async function PerfumesPage({ searchParams }: PageProps<"/perfume
         initialCategoria={categoria}
         initialBusqueda={busqueda}
         initialOrden={orden}
-        initialPagina={pagina}
+        initialVisibleCount={mostrar}
       />
     </div>
   );
