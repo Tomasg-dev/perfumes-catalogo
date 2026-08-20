@@ -1,7 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import PerfumeCard from "./PerfumeCard";
+import Paginacion from "./Paginacion";
 import type { Perfume, Categoria } from "@/lib/types";
 import { CATEGORIA_LABELS } from "@/lib/format";
 import { GOLD_CHEVRON_STYLE, SELECT_OPTION_CLASSNAME } from "@/lib/select-style";
@@ -9,6 +11,7 @@ import { GOLD_CHEVRON_STYLE, SELECT_OPTION_CLASSNAME } from "@/lib/select-style"
 type Orden = "destacados" | "precio-asc" | "precio-desc";
 
 const CATEGORIAS: (Categoria | "todos")[] = ["todos", "hombre", "mujer", "unisex"];
+const PERFUMES_POR_PAGINA = 24;
 
 // Los perfumes con precio pendiente (null) siempre quedan al final,
 // sin importar la dirección del orden.
@@ -19,10 +22,26 @@ function comparePrecio(a: number | null, b: number | null, direccion: 1 | -1): n
   return (a - b) * direccion;
 }
 
-export default function CatalogExplorer({ perfumes }: { perfumes: Perfume[] }) {
-  const [categoria, setCategoria] = useState<Categoria | "todos">("todos");
-  const [busqueda, setBusqueda] = useState("");
-  const [orden, setOrden] = useState<Orden>("destacados");
+export default function CatalogExplorer({
+  perfumes,
+  initialCategoria = "todos",
+  initialBusqueda = "",
+  initialOrden = "destacados",
+  initialPagina = 1,
+}: {
+  perfumes: Perfume[];
+  initialCategoria?: Categoria | "todos";
+  initialBusqueda?: string;
+  initialOrden?: Orden;
+  initialPagina?: number;
+}) {
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const [categoria, setCategoria] = useState<Categoria | "todos">(initialCategoria);
+  const [busqueda, setBusqueda] = useState(initialBusqueda);
+  const [orden, setOrden] = useState<Orden>(initialOrden);
+  const [pagina, setPagina] = useState(initialPagina);
 
   const resultado = useMemo(() => {
     let lista = perfumes;
@@ -51,6 +70,46 @@ export default function CatalogExplorer({ perfumes }: { perfumes: Perfume[] }) {
     return ordenada;
   }, [perfumes, categoria, busqueda, orden]);
 
+  const totalPages = Math.max(1, Math.ceil(resultado.length / PERFUMES_POR_PAGINA));
+
+  function cambiarCategoria(c: Categoria | "todos") {
+    setCategoria(c);
+    setPagina(1);
+  }
+
+  function cambiarBusqueda(q: string) {
+    setBusqueda(q);
+    setPagina(1);
+  }
+
+  function cambiarOrden(o: Orden) {
+    setOrden(o);
+    setPagina(1);
+  }
+
+  const paginaActual = Math.min(pagina, totalPages);
+  const pageStart = (paginaActual - 1) * PERFUMES_POR_PAGINA;
+  const resultadoPagina = resultado.slice(pageStart, pageStart + PERFUMES_POR_PAGINA);
+
+  // Refleja los filtros en la URL (sin recargar) para que "atrás" desde la
+  // ficha de un producto vuelva exactamente con el mismo filtro/página.
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (categoria !== "todos") params.set("categoria", categoria);
+    if (busqueda) params.set("q", busqueda);
+    if (orden !== "destacados") params.set("orden", orden);
+    if (paginaActual > 1) params.set("page", String(paginaActual));
+    const qs = params.toString();
+    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+  }, [categoria, busqueda, orden, paginaActual, pathname, router]);
+
+  function irAPagina(p: number) {
+    setPagina(p);
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+
   return (
     <div>
       <div className="flex flex-col gap-6 border-b border-[var(--color-border)] pb-8 sm:flex-row sm:items-center sm:justify-between">
@@ -59,7 +118,7 @@ export default function CatalogExplorer({ perfumes }: { perfumes: Perfume[] }) {
             <button
               key={c}
               type="button"
-              onClick={() => setCategoria(c)}
+              onClick={() => cambiarCategoria(c)}
               className={`rounded-full border px-4 py-1.5 text-xs uppercase tracking-widest transition-colors ${
                 categoria === c
                   ? "border-[var(--color-ink)] bg-[var(--color-ink)] text-[var(--color-paper)]"
@@ -75,13 +134,13 @@ export default function CatalogExplorer({ perfumes }: { perfumes: Perfume[] }) {
           <input
             type="search"
             value={busqueda}
-            onChange={(e) => setBusqueda(e.target.value)}
+            onChange={(e) => cambiarBusqueda(e.target.value)}
             placeholder="Buscar por nombre o marca"
             className="min-w-0 rounded-full border border-[var(--color-border)] bg-transparent px-4 py-1.5 text-sm outline-none focus:border-[var(--color-gold)] sm:w-56"
           />
           <select
             value={orden}
-            onChange={(e) => setOrden(e.target.value as Orden)}
+            onChange={(e) => cambiarOrden(e.target.value as Orden)}
             className="min-w-0 appearance-none rounded-full border border-[var(--color-border)] bg-[var(--color-paper)] bg-[length:14px] bg-[right_1rem_center] bg-no-repeat pl-4 pr-9 py-1.5 text-sm text-[var(--color-ink)] outline-none focus:border-[var(--color-gold)]"
             style={GOLD_CHEVRON_STYLE}
           >
@@ -103,11 +162,14 @@ export default function CatalogExplorer({ perfumes }: { perfumes: Perfume[] }) {
           No encontramos perfumes que coincidan con tu búsqueda.
         </p>
       ) : (
-        <div className="grid grid-cols-2 gap-x-6 gap-y-12 py-10 sm:grid-cols-3 lg:grid-cols-4">
-          {resultado.map((perfume) => (
-            <PerfumeCard key={perfume.id} perfume={perfume} />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-2 gap-x-6 gap-y-12 py-10 sm:grid-cols-3 lg:grid-cols-4">
+            {resultadoPagina.map((perfume) => (
+              <PerfumeCard key={perfume.id} perfume={perfume} />
+            ))}
+          </div>
+          <Paginacion page={paginaActual} totalPages={totalPages} onPageChange={irAPagina} />
+        </>
       )}
     </div>
   );

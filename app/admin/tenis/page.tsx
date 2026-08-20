@@ -3,6 +3,7 @@ import { getAllTenisAdmin } from "@/lib/tenis";
 import { formatPrice } from "@/lib/format";
 import { COLORES_TENIS } from "@/lib/colores-tenis";
 import { GOLD_CHEVRON_STYLE, SELECT_OPTION_CLASSNAME } from "@/lib/select-style";
+import ImageZoom from "@/components/ImageZoom";
 import { updateTenis, deleteTenis } from "../actions";
 
 export default async function AdminTenisPage() {
@@ -34,12 +35,18 @@ export default async function AdminTenisPage() {
               action={updateTenis.bind(null, t.id)}
               className="flex flex-col gap-3 border-b border-[var(--color-border)] pb-4 sm:flex-row sm:items-center"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={t.imagenUrl ?? undefined}
-                alt={t.nombre}
-                className="h-20 w-20 shrink-0 rounded object-cover"
-              />
+              {t.imagenUrl ? (
+                <ImageZoom src={t.imagenUrl} alt={t.nombre} className="h-20 w-20 shrink-0">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={t.imagenUrl}
+                    alt={t.nombre}
+                    className="h-20 w-20 shrink-0 rounded object-cover"
+                  />
+                </ImageZoom>
+              ) : (
+                <div className="h-20 w-20 shrink-0 rounded bg-[var(--color-paper-alt)]" />
+              )}
               <div className="grid flex-1 grid-cols-2 gap-2 sm:grid-cols-5">
                 <input
                   type="text"

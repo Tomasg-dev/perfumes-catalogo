@@ -7,6 +7,7 @@ import { compressImage, nombreDesdeArchivo } from "@/lib/image-compress";
 import { slugify } from "@/lib/slugify";
 import { COLORES_TENIS } from "@/lib/colores-tenis";
 import { GOLD_CHEVRON_STYLE, SELECT_OPTION_CLASSNAME } from "@/lib/select-style";
+import ImageZoom from "@/components/ImageZoom";
 import { createTenisBatch, type NuevoTenis } from "../../actions";
 import type { CategoriaTenis } from "@/lib/types";
 
@@ -118,12 +119,14 @@ export default function SubirTenisPage() {
               key={b.key}
               className="flex flex-col gap-3 border-b border-[var(--color-border)] pb-4 sm:flex-row sm:items-center"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={b.previewUrl}
-                alt=""
-                className="h-24 w-24 shrink-0 rounded object-cover"
-              />
+              <ImageZoom src={b.previewUrl} alt={b.nombre || "Vista previa"} className="h-24 w-24 shrink-0">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={b.previewUrl}
+                  alt=""
+                  className="h-24 w-24 shrink-0 rounded object-cover"
+                />
+              </ImageZoom>
               <div className="grid flex-1 grid-cols-1 gap-2 sm:grid-cols-4">
                 <input
                   type="text"

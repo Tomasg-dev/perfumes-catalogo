@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import PerfumeImage from "@/components/PerfumeImage";
+import ImageZoom from "@/components/ImageZoom";
+import BackLink from "@/components/BackLink";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import AddToCartButton from "@/components/AddToCartButton";
 import { getTenisBySlug, getAllTenisSlugs } from "@/lib/tenis";
@@ -71,21 +72,32 @@ export default async function TenisDetailPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="mx-auto max-w-6xl px-6 py-16">
-        <Link
-          href="/tenis"
+        <BackLink
+          fallbackHref="/tenis"
           className="text-sm text-[var(--color-muted)] hover:text-[var(--color-gold)]"
         >
           ← Volver al catálogo de tenis
-        </Link>
+        </BackLink>
 
         <div className="mt-8 grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div className="mx-auto w-full max-w-md">
-            <PerfumeImage
-              imagenUrl={tenis.imagenUrl}
-              nombre={tenis.nombre}
-              priority
-              sizes="(max-width: 1024px) 100vw, 448px"
-            />
+            {tenis.imagenUrl ? (
+              <ImageZoom src={tenis.imagenUrl} alt={tenis.nombre}>
+                <PerfumeImage
+                  imagenUrl={tenis.imagenUrl}
+                  nombre={tenis.nombre}
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 448px"
+                />
+              </ImageZoom>
+            ) : (
+              <PerfumeImage
+                imagenUrl={tenis.imagenUrl}
+                nombre={tenis.nombre}
+                priority
+                sizes="(max-width: 1024px) 100vw, 448px"
+              />
+            )}
           </div>
 
           <div className="flex flex-col justify-center">
