@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import CartButton from "./CartButton";
+import BottleIcon from "./icons/BottleIcon";
+import SneakerIcon from "./icons/SneakerIcon";
 import { SITE_NAME } from "@/lib/config";
 
 export default function Header() {
@@ -13,8 +15,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-[var(--color-paper)]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <Link href="/" className="font-serif text-2xl tracking-wide text-[var(--color-ink)]">
+        <Link
+          href="/"
+          className="flex items-center gap-2.5 font-serif text-2xl tracking-wide text-[var(--color-ink)]"
+        >
+          <BottleIcon className="h-7 w-auto text-[var(--color-gold)]" />
           {SITE_NAME}
+          <SneakerIcon className="h-4 w-auto text-[var(--color-gold)]" />
         </Link>
         <nav className="flex items-center gap-4 text-sm tracking-wide text-[var(--color-ink)] sm:gap-6">
           <Link

@@ -12,7 +12,7 @@ export default function HeroWatermark() {
         <rect x="80" y="40" width="60" height="38" rx="4" />
         <rect x="92" y="26" width="36" height="16" rx="3" />
         <path d="M70 78 h80 l11 30 v130 a11 11 0 0 1 -11 11 h-80 a11 11 0 0 1 -11 -11 v-130 z" />
-        <line x1="58" y1="170" x2="182" y2="170" />
+        <line x1="59" y1="170" x2="161" y2="170" />
       </svg>
       <svg
         viewBox="0 0 100 50"

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import TenisExplorer from "@/components/TenisExplorer";
 import TenisCard from "@/components/TenisCard";
 import Paginacion from "@/components/Paginacion";
+import SneakerIcon from "@/components/icons/SneakerIcon";
 import { getTenisPage, type OrdenTenis } from "@/lib/tenis";
 
 export const metadata: Metadata = {
@@ -32,7 +33,10 @@ export default async function TenisPage({ searchParams }: PageProps<"/tenis">) {
   return (
     <div className="mx-auto max-w-6xl px-6 py-16">
       <div className="mb-10 text-center">
-        <h1 className="font-serif text-4xl text-[var(--color-ink)]">Tenis</h1>
+        <h1 className="flex items-center justify-center gap-3 font-serif text-4xl text-[var(--color-ink)]">
+          Tenis
+          <SneakerIcon className="h-7 w-auto text-[var(--color-gold)]" />
+        </h1>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-[var(--color-muted)]">
           Zapatillas para hombre, mujer y unisex, con nuevas referencias
           sumándose cada semana. Filtra por categoría o precio y escríbenos

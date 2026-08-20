@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CatalogExplorer from "@/components/CatalogExplorer";
+import BottleIcon from "@/components/icons/BottleIcon";
 import { getPerfumes } from "@/lib/sheets";
 import type { Categoria } from "@/lib/types";
 
@@ -30,9 +31,12 @@ export default async function PerfumesPage({ searchParams }: PageProps<"/perfume
   return (
     <div className="mx-auto max-w-6xl px-6 py-16">
       <div className="mb-10 text-center">
-        <h1 className="font-serif text-4xl text-[var(--color-ink)]">Perfumes</h1>
+        <h1 className="flex items-center justify-center gap-3 font-serif text-4xl text-[var(--color-ink)]">
+          Perfumes
+          <BottleIcon className="h-9 w-auto text-[var(--color-gold)]" />
+        </h1>
         <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-[var(--color-muted)]">
-          Fragancias originales de marcas como Chanel, Dior, Carolina Herrera, Bvlgari
+          Fragancias de marcas como Chanel, Dior, Carolina Herrera, Bvlgari
           y Creed, entre otras. Filtra por categoría — hombre, mujer o unisex — y
           escríbenos por WhatsApp para confirmar disponibilidad y envío.
         </p>
